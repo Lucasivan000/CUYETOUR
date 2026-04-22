@@ -6,9 +6,9 @@ const EXPERIENCES = [
         precio: "Desde $45.000",
         descripcion: "Relax total en una playa paradisíaca con servicios premium.",
         imagenes: [
-            "/assets/img/imagen1.jpg",
-            "/assets/img/imagen2.jpg",
-            "/assets/img/imagen3.jpg"
+            "./assets/img/imagen1.jpg",
+            "./assets/img/imagen2.jpg",
+            "./assets/img/imagen3.jpg"
         ],
         detalles: {
             duracion: "6 horas",
@@ -25,9 +25,9 @@ const EXPERIENCES = [
         precio: "Desde $52.000",
         descripcion: "Senderismo guiado y vistas panorámicas únicas en la montaña.",
         imagenes: [
-            "/assets/img/imagen1.jpg",
-            "/assets/img/imagen2.jpg",
-            "/assets/img/imagen3.jpg"
+            "./assets/img/imagen1.jpg",
+            "./assets/img/imagen2.jpg",
+            "./assets/img/imagen3.jpg"
         ],
         detalles: {
             duracion: "8 horas",
@@ -44,8 +44,8 @@ const EXPERIENCES = [
         precio: "Desde $95.000",
         descripcion: "Experiencia aérea exclusiva con vistas impresionantes de la ciudad y costa.",
         imagenes: [
-            "/assets/img/imagen1.jpg",
-            "/assets/img/imagen2.jpg",
+            "./assets/img/imagen1.jpg",
+            "./assets/img/imagen2.jpg",
             "/assets/img/imagen3.jpg"
         ],
         detalles: {
@@ -63,8 +63,8 @@ const EXPERIENCES = [
         precio: "Desde $68.000",
         descripcion: "Recorrido en catamarán con bebidas, música y vistas únicas del río/mar.",
         imagenes: [
-            "/assets/img/imagen1.jpg",
-            "/assets/img/imagen2.jpg",
+            "./assets/img/imagen1.jpg",
+            "./assets/img/imagen2.jpg",
             "/assets/img/imagen3.jpg"
         ],
         detalles: {
@@ -81,8 +81,8 @@ const EXPERIENCES = [
         precio: "Desde $38.000",
         descripcion: "Disfrutá un recorrido en barco por el río mientras cae el sol, con música y bebidas a bordo.",
         imagenes: [
-            "/assets/img/imagen1.jpg",
-            "/assets/img/imagen2.jpg",
+            "./assets/img/imagen1.jpg",
+            "./assets/img/imagen2.jpg",
             "/assets/img/imagen3.jpg"
         ],
         detalles: {
