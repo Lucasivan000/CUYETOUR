@@ -461,6 +461,7 @@
             // ============================
             // UPDATE SLIDER
             // ============================
+
             function updateSlider() {
                 track.style.transform = `translateX(-${index * 100}%)`;
 
@@ -470,7 +471,7 @@
             }
 
             // ============================
-            // EVENTS
+            // BOTONES
             // ============================
             prev.addEventListener("click", (e) => {
                 e.stopPropagation();
@@ -481,6 +482,35 @@
             next.addEventListener("click", (e) => {
                 e.stopPropagation();
                 if (index < experience.imagenes.length - 1) index++;
+                updateSlider();
+            });
+
+            // ============================
+            // SWIPE MOBILE (TOUCH)
+            // ============================
+            let startX = 0;
+
+            track.addEventListener("touchstart", (e) => {
+                startX = e.touches[0].clientX;
+            }, { passive: true });
+
+            track.addEventListener("touchend", (e) => {
+                const endX = e.changedTouches[0].clientX;
+                const diff = startX - endX;
+
+                // sensibilidad (evita movimientos accidentales)
+                if (Math.abs(diff) < 40) return;
+
+                // swipe izquierda → siguiente
+                if (diff > 0 && index < experience.imagenes.length - 1) {
+                    index++;
+                }
+
+                // swipe derecha → anterior
+                if (diff < 0 && index > 0) {
+                    index--;
+                }
+
                 updateSlider();
             });
 
