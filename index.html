@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="navbar__container">
+
+            <!-- Logo / Brand -->
+            <a href="/" class="navbar__brand">
+
+                <img src="./assets/img/logo.png" alt="TourGold logo" class="navbar__logo">
+
+                <div class="navbar__brand-text">
+                    <span class="navbar__title">
+                        Cuye<span class="navbar__highlight">Tour</span>
+                    </span>
+
+                    <span class="navbar__tagline">
+                        Turismo en Río 🇧🇷
+                    </span>
+                </div>
+
+            </a>
+
+            <!-- Navigation links -->
+            <nav class="navbar__nav" id="navbarNav">
+                <a href="#experiencias" class="navbar__link">Experiencias</a>
+                <a href="#contacto" class="navbar__link">Contacto</a>
+
+                <!-- CTA Desktop -->
+                <a href="https://wa.me/549XXXXXXXXXX" class="navbar__cta" target="_blank" rel="noopener">
+                    WhatsApp
+                </a>
+            </nav>
+
+            <!-- Hamburger -->
+            <button class="navbar__toggle" id="navbarToggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero__container">
+
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        Experiencias únicas en el corazón de Río
+                    </h1>
+
+                    <p class="hero__subtitle">
+                        Excursiones seleccionadas para disfrutar sin preocupaciones.
+                    </p>
+
+
+                </div>
+
+            </div>
+        </section>
+        <section class="experience-selector" aria-label="Selector de experiencias" id="experiencias">
+            <div class="experience-selector__container">
+
+                <h2 class="experience-selector__title">
+                    ¿Qué tipo de experiencia buscás?
+                </h2>
+
+                <div class="experience-chips" role="tablist">
+
+                    <button class="experience-chip is-active" data-category="all">
+                        Todas
+                    </button>
+
+                    <button class="experience-chip" data-category="playa" role="tab" aria-selected="false">
+                        <span class="experience-chip__label">Playa</span>
+                    </button>
+
+                    <button class="experience-chip" data-category="aventura" role="tab" aria-selected="false">
+                        <span class="experience-chip__label">Aventura</span>
+                    </button>
+
+                    <button class="experience-chip" data-category="helicoptero" role="tab" aria-selected="false">
+                        <span class="experience-chip__label">Helicóptero</span>
+                    </button>
+
+                    <button class="experience-chip" data-category="navegacion" role="tab" aria-selected="false">
+                        <span class="experience-chip__label">Navegación</span>
+                    </button>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="experiences" id="experiences-list">
+            <div class="experiences__container">
+
+                <div class="experiences__grid">
+
+                    <!-- CARD -->
+                    <article class="experience-card" data-id="playa-exclusiva" data-category="playa" tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="/assets/img/imagen1.jpg" alt="Día de Playa Exclusivo">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Día de Playa Exclusivo
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Relax total en una playa paradisíaca con servicios premium.
+                            </p>
+
+                            <span class="experience-card__price">
+                                Desde $45.000
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="aventura-montana" data-category="aventura" tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="/assets/img/imagen1.jpg" alt="Día de Playa Exclusivo">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Día de Aventura Exclusivo
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Relax total en una playa paradisíaca con servicios premium.
+                            </p>
+
+                            <span class="experience-card__price">
+                                Desde $45.000
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="helicoptero-aventura" data-category="helicoptero"
+                        tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="/assets/img/imagen1.jpg" alt="Día de Playa Exclusivo">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Día de Helicoptero Exclusivo
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Relax total en una playa paradisíaca con servicios premium.
+                            </p>
+
+                            <span class="experience-card__price">
+                                Desde $45.000
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="navegacion-exclusiva" data-category="navegacion"
+                        tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="/assets/img/imagen1.jpg" alt="Día de Playa Exclusivo">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Día de Navegacion Exclusivo
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Relax total en una playa paradisíaca con servicios premium.
+                            </p>
+
+                            <span class="experience-card__price">
+                                Desde $45.000
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="navegacion-rio-atardecer" data-category="navegacion"
+                        tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="/assets/img/imagen1.jpg" alt="Día de Playa Exclusivo">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Navegación al Atardecer
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Recorrido en barco disfrutando del atardecer sobre el río con música y bebidas.
+                            </p>
+
+                            <span class="experience-card__price">
+                                Desde $38.000
+                            </span>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="experience-detail is-hidden" id="experience-detail">
+
+            <div class="experience-detail__container">
+
+                <button class="experience-detail__back" id="detail-back">
+                    ← Volver
+                </button>
+
+                <div class="experience-detail__gallery" id="detail-gallery"></div>
+
+                <div class="experience-detail__content">
+                    <h2 id="detail-title"></h2>
+                    <p class="experience-detail__price" id="detail-price"></p>
+                    <p class="experience-detail__description" id="detail-description"></p>
+
+                    <ul class="experience-detail__features" id="detail-features"></ul>
+
+                    <a id="detail-cta" class="experience-detail__cta" target="_blank">
+                        Consultar por WhatsApp
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        <section class="contact" id="contacto">
+            <div class="contact__container">
+
+                <!-- Lado emocional -->
+                <div class="contact__content">
+
+                    <h2 class="contact__title">
+                        Viví el río, descubrí la cultura
+                    </h2>
+
+                    <p class="contact__text">
+                        No se trata solo de excursiones.
+                        Se trata de sentir el agua, perderse en los paisajes y conectar con la esencia del lugar.
+                    </p>
+
+                    <p class="contact__text">
+                        Te ayudamos a elegir la experiencia perfecta para vos, tu familia o tu grupo.
+                        Cada recorrido está pensado para que no solo lo veas… lo vivas.
+                    </p>
+
+                    <a class="contact__cta" href="https://wa.me/549XXXXXXXXXX" target="_blank">
+                        Hablar con un asesor
+                    </a>
+
+                </div>
+                <!-- Tarjeta redes sociales -->
+                <div class="contact__card">
+
+                    <div class="contact__card-header">
+                        <span class="contact__badge">Viví la experiencia</span>
+                        <h3 class="contact__name">Seguinos en redes</h3>
+                        <p class="contact__role">
+                            Descubrí excursiones, paisajes y experiencias en tiempo real
+                        </p>
+                    </div>
+
+                    <div class="contact__socials">
+
+                        <a href="https://instagram.com" class="social-icon instagram" target="_blank">
+                            <img src="/assets/logos/three-dimensional-instagram-icon-social-software-likes_494359_wh1200-removebg-preview.png"
+                                alt="Instagram">
+                        </a>
+
+                        <a href="https://tiktok.com" class="social-icon tiktok" target="_blank">
+                            <img src="/assets/logos/tiktok-icon-free-png-removebg-preview.png" alt="TikTok">
+                        </a>
+
+                    </div>
+
+                    <a href="https://linktr.ee/tuusuario" class="contact__linktree" target="_blank">
+                        Acceder a catálogo y comunidad
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+        <footer class="footer">
+
+            <div class="footer__container">
+
+                <!-- BRAND -->
+                <div class="footer__brand">
+                    <h3 class="footer__logo">Cuyetour</h3>
+                    <p class="footer__text">
+                        Experiencias turísticas diseñadas para conectar con la naturaleza,
+                        la cultura y la aventura en cada destino.
+                    </p>
+                </div>
+
+                <!-- INFO -->
+                <div class="footer__info">
+                    <h4>Experiencias</h4>
+                    <ul>
+                        <li>Excursiones en la naturaleza</li>
+                        <li>Experiencias culturales</li>
+                        <li>Aventuras personalizadas</li>
+                        <li>Salidas grupales y privadas</li>
+                    </ul>
+                </div>
+
+                <!-- CATASTRO -->
+                <div class="footer__legal">
+                    <h4>Registro</h4>
+                    <ul>
+                        <li>CUIT / Catastro turístico habilitado</li>
+                        <li>Operador de experiencias locales</li>
+                        <li>Atención personalizada por WhatsApp</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- BOTTOM -->
+            <div class="footer__bottom">
+                <p>© 2026 Cuyetour. Todos los derechos reservados.</p>
+
+                <a href="https://initiumq.com" class="footer__credit">
+                    Desarrollado por InitiumQuest
+                </a>
+            </div>
+
+        </footer>
+    </main>
+
+    <script>
+        const navbarToggle = document.getElementById("navbarToggle");
+        const navbarNav = document.getElementById("navbarNav");
+
+        navbarToggle.addEventListener("click", () => {
+            navbarNav.classList.toggle("active");
+            navbarToggle.classList.toggle("active");
+        });
+
+        // Cerrar menú al hacer click en un link (mobile UX)
+        navbarNav.addEventListener("click", (e) => {
+            if (e.target.classList.contains("navbar__link")) {
+                navbarNav.classList.remove("active");
+                navbarToggle.classList.remove("active");
+            }
+        });
+    </script>
+    <script src="/data/experiencies.js"></script>
+    <script>
+        // ============================
+        // SELECTORES BASE
+        // ============================
+        const chips = document.querySelectorAll(".experience-chip");
+        const cards = document.querySelectorAll(".experience-card");
+
+        const experiencesSection = document.querySelector(".experiences");
+        const detailSection = document.getElementById("experience-detail");
+        const backButton = document.getElementById("detail-back");
+
+        // ============================
+        // FILTRADO POR CATEGORÍA
+        // ============================
+        chips.forEach(chip => {
+            chip.addEventListener("click", () => {
+                const category = chip.dataset.category;
+
+                chips.forEach(c => c.classList.remove("is-active"));
+                chip.classList.add("is-active");
+
+                cards.forEach(card => {
+                    if (category === "all" || card.dataset.category === category) {
+                        card.classList.remove("is-hidden");
+                    } else {
+                        card.classList.add("is-hidden");
+                    }
+                });
+            });
+        });
+
+        // ============================
+        // RENDER DETALLE (ANTI BUG)
+        // ============================
+        function renderExperienceDetail(experience) {
+            if (!experience) return;
+
+            document.getElementById("detail-title").textContent = experience.titulo || "";
+            document.getElementById("detail-price").textContent = experience.precio || "";
+            document.getElementById("detail-description").textContent = experience.descripcion || "";
+
+            // ============================
+            // GALERÍA (SLIDER SEGURO)
+            // ============================
+            const gallery = document.getElementById("detail-gallery");
+            gallery.innerHTML = "";
+
+            if (!experience.imagenes || experience.imagenes.length === 0) return;
+
+            // TRACK
+            const track = document.createElement("div");
+            track.classList.add("gallery-track");
+
+            experience.imagenes.forEach(src => {
+                const img = document.createElement("img");
+                img.src = src;
+                img.alt = experience.titulo || "experience";
+                track.appendChild(img);
+            });
+
+            gallery.appendChild(track);
+
+            // si solo hay 1 imagen, no slider
+            if (experience.imagenes.length === 1) return;
+
+            let index = 0;
+
+            const prev = document.createElement("button");
+            prev.className = "gallery-btn prev";
+            prev.innerHTML = "‹";
+
+            const next = document.createElement("button");
+            next.className = "gallery-btn next";
+            next.innerHTML = "›";
+
+            gallery.appendChild(prev);
+            gallery.appendChild(next);
+
+            function updateSlider() {
+                track.style.transform = `translateX(-${index * 100}%)`;
+            }
+
+            prev.addEventListener("click", (e) => {
+                e.stopPropagation();
+                if (index > 0) index--;
+                updateSlider();
+            });
+
+            next.addEventListener("click", (e) => {
+                e.stopPropagation();
+                if (index < experience.imagenes.length - 1) index++;
+                updateSlider();
+            });
+
+            // ============================
+            // DETALLES
+            // ============================
+            const features = document.getElementById("detail-features");
+            features.innerHTML = "";
+
+            if (experience.detalles) {
+                Object.entries(experience.detalles).forEach(([key, value]) => {
+                    const li = document.createElement("li");
+                    li.textContent = `${key}: ${value}`;
+                    features.appendChild(li);
+                });
+            }
+
+            // ============================
+            // CTA
+            // ============================
+            document.getElementById("detail-cta").href =
+                `https://wa.me/549XXXXXXXXXX?text=Hola! Quiero info sobre ${encodeURIComponent(experience.titulo)}`;
+        }
+
+        // ============================
+        // CLICK EN CARD (DELEGACIÓN SEGURA)
+        // ============================
+        document.addEventListener("click", (e) => {
+            const card = e.target.closest(".experience-card");
+            if (!card) return;
+
+            const id = card.dataset.id;
+            if (!id) return;
+
+            const experience = EXPERIENCES?.find(exp => exp.id === id);
+
+            if (!experience) {
+                console.warn("No encontrado:", id);
+                return;
+            }
+
+            renderExperienceDetail(experience);
+
+            experiencesSection.classList.add("is-hidden");
+            detailSection.classList.remove("is-hidden");
+
+            detailSection.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        });
+
+        // ============================
+        // VOLVER
+        // ============================
+        backButton.addEventListener("click", () => {
+            detailSection.classList.add("is-hidden");
+            experiencesSection.classList.remove("is-hidden");
+        });
+    </script>
+
+
+</body>
+
+</html>
