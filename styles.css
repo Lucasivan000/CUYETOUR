@@ -685,40 +685,53 @@ body {
 /* SLIDER BUTTONS */
 /* ========================= */
 
+
+/* BOTÓN BASE MÁS LIVIANO */
 .gallery-btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 
-    width: 46px;
-    height: 46px;
+    width: 42px;
+    height: 42px;
 
     border-radius: 50%;
-    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.25);
 
     cursor: pointer;
 
-    background: rgba(31, 58, 74, 0.55);
-    color: white;
+    background: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.85);
 
-    font-size: 22px;
+    font-size: 20px;
+
     z-index: 5;
 
-    backdrop-filter: blur(6px);
-    transition: all 0.2s ease;
+    backdrop-filter: blur(8px);
+
+    opacity: 0;              /* 👈 invisible por defecto */
+    transition: all 0.25s ease;
 }
 
+/* APARECEN SOLO CUANDO INTERACTÚAS CON LA GALERÍA */
+.experience-detail__gallery:hover .gallery-btn {
+    opacity: 1;
+}
+
+/* HOVER MÁS SUAVE (NO ROMPE FOTO) */
 .gallery-btn:hover {
-    background: var(--color-gold-main);
-    color: #1F3A4A;
+    background: rgba(255, 255, 255, 0.18);
+    color: #fff;
+    transform: translateY(-50%) scale(1.05);
 }
 
+/* POSICIÓN */
 .gallery-btn.prev {
-    left: 12px;
+    left: 10px;
 }
 
 .gallery-btn.next {
-    right: 12px;
+    right: 10px;
 }
 
 /* ========================= */
