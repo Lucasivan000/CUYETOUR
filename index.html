@@ -406,7 +406,9 @@
 
             if (!experience.imagenes || experience.imagenes.length === 0) return;
 
+            // ============================
             // TRACK
+            // ============================
             const track = document.createElement("div");
             track.classList.add("gallery-track");
 
@@ -424,6 +426,27 @@
 
             let index = 0;
 
+            // ============================
+            // DOTS (INDICADOR UX)
+            // ============================
+            const dotsContainer = document.createElement("div");
+            dotsContainer.classList.add("gallery-dots");
+
+            const dots = [];
+
+            experience.imagenes.forEach((_, i) => {
+                const dot = document.createElement("span");
+                if (i === 0) dot.classList.add("active");
+
+                dotsContainer.appendChild(dot);
+                dots.push(dot);
+            });
+
+            gallery.appendChild(dotsContainer);
+
+            // ============================
+            // BOTONES
+            // ============================
             const prev = document.createElement("button");
             prev.className = "gallery-btn prev";
             prev.innerHTML = "‹";
@@ -435,10 +458,20 @@
             gallery.appendChild(prev);
             gallery.appendChild(next);
 
+            // ============================
+            // UPDATE SLIDER
+            // ============================
             function updateSlider() {
                 track.style.transform = `translateX(-${index * 100}%)`;
+
+                dots.forEach((dot, i) => {
+                    dot.classList.toggle("active", i === index);
+                });
             }
 
+            // ============================
+            // EVENTS
+            // ============================
             prev.addEventListener("click", (e) => {
                 e.stopPropagation();
                 if (index > 0) index--;
