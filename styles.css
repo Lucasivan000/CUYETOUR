@@ -274,7 +274,7 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("/assets/img/hero-playa.jpg");
+    background-image: url("./assets/img/hero-playa.jpg");
     background-size: cover;
     background-position: center;
     opacity: 0.80;
