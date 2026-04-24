@@ -1306,6 +1306,8 @@ body {
     position: relative;
     z-index: 2;
     background: var(--color-bg);
+
+    padding: 80px 20px;
 }
 
 .cadastur__container {
@@ -1369,7 +1371,7 @@ body {
 }
 
 .cadastur__card img {
-    max-width: 300px;
+    max-width: 350px;
     width: 100%;
     height: auto;
 }
