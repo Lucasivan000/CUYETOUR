@@ -554,6 +554,8 @@ body {
 /* ---------- Card ---------- */
 
 .experience-card {
+    display: flex;
+    flex-direction: column;
     background-color: #ffffff;
     border-radius: 16px;
     overflow: hidden;
@@ -593,6 +595,10 @@ body {
 /* ---------- Content ---------- */
 
 .experience-card__content {
+    
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     padding: 18px 18px 20px;
 }
 
