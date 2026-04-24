@@ -281,7 +281,11 @@ const EXPERIENCES = [
         precio: "Desde R$ 250",
         descripcion: "Un paseo ideal para todas las edades que combina naturaleza marina, arte urbano y los espacios más modernos de Río de Janeiro. Visitá el acuario marino más grande de América del Sur, con túneles subacuáticos y cientos de especies, y recorré el renovado Boulevard Olímpico, una de las zonas más vibrantes de la ciudad, llena de historia, cultura y murales icónicos.",
         imagenes: [
-            "./assets/img/citytours/acuario/acuario1.png"
+            "./assets/img/tours/acuario/acua1.png",
+            "./assets/img/tours/acuario/acua2.png",
+            "./assets/img/tours/acuario/acua3.png",
+            "./assets/img/tours/acuario/acua5.png",
+            "./assets/img/tours/acuario/tour4.png"
         ],
         detalles: {
             duracion: "Medio día",
@@ -297,7 +301,12 @@ const EXPERIENCES = [
         precio: "Desde R$ 490",
         descripcion: "La opción más completa para conocer Río de Janeiro en un solo día. Este tour recorre los principales íconos de la ciudad, combinando paisajes espectaculares, cultura e historia. Incluye visitas al Cristo Redentor y al Pan de Azúcar, además de un recorrido panorámico por barrios tradicionales, playas y puntos culturales, todo con transporte cómodo y guía especializado.",
         imagenes: [
-            "./assets/img/citytours/1dia/1dia1.png"
+            "./assets/img/tours/diario/dia1.png",
+            "./assets/img/tours/diario/dia2.png",
+            "./assets/img/tours/diario/dia3.png",
+            "./assets/img/tours/diario/dia4.png",
+            "./assets/img/tours/diario/dia5.png",
+            "./assets/img/tours/diario/dia6.png"
         ],
         detalles: {
             duracion: "9 a 10 horas aprox.",
@@ -313,7 +322,10 @@ const EXPERIENCES = [
         precio: "Desde R$ 260",
         descripcion: "Un tour ideal para conocer lo esencial de Río de Janeiro. Incluye la visita al Cristo Redentor, uno de los monumentos más famosos del mundo, y un recorrido panorámico por los principales puntos turísticos y culturales de la ciudad. Perfecto para quienes tienen poco tiempo y quieren una experiencia completa y bien organizada.",
         imagenes: [
-            "./assets/img/citytours/corcovado/corcovado1.png"
+            "./assets/img/tours/corcovado/corco1.png",
+            "./assets/img/tours/corcovado/corco2.png",
+            "./assets/img/tours/corcovado/corco3.png",
+            "./assets/img/tours/corcovado/corco4.png"
         ],
         detalles: {
             duracion: "Medio día",
@@ -329,7 +341,10 @@ const EXPERIENCES = [
         precio: "Desde R$ 655",
         descripcion: "Un día completo combinando paisajes, diversión y naturaleza. Este tour reúne tres grandes atracciones de Río: el Pan de Azúcar con su teleférico panorámico, el AquaRio y el BioParque, un zoológico moderno enfocado en la conservación. Ideal para familias y viajeros que buscan una experiencia variada y dinámica.",
         imagenes: [
-            "./assets/img/citytours/aventura/aventura1.png"
+            "./assets/img/tours/rioaventura/aven1.png",
+            "./assets/img/tours/rioaventura/aven2.png",
+            "./assets/img/tours/rioaventura/aven3.png",
+            "./assets/img/tours/rioaventura/aven4.png"
         ],
         detalles: {
             duracion: "7 horas aprox.",
@@ -345,13 +360,268 @@ const EXPERIENCES = [
         precio: "Desde R$ 250",
         descripcion: "Una experiencia imperdible para los amantes del fútbol y la cultura brasileña. Conocé el mítico Estadio Maracanã, escenario de finales históricas y grandes momentos del deporte mundial. El tour recorre el exterior del estadio y su entorno, con explicaciones sobre su historia y relevancia cultural.",
         imagenes: [
-            "./assets/img/citytours/maracana/maracana1.png"
+            "./assets/img/tours/maracana/mara2.png",
+            "./assets/img/tours/maracana/mara1.png"
         ],
         detalles: {
             duracion: "Corta duración",
             ubicacion: "Río de Janeiro",
             incluye: "Transporte ida y vuelta, guía bilingüe, visita externa al estadio",
             noIncluye: "Ingreso al interior del estadio, comidas y bebidas"
+        }
+    },
+    {
+        id: "pedra-do-telegrafo",
+        categoria: "naturaleza-excursiones",
+        titulo: "Pedra do Telégrafo – Aventura y Vista Panorámica",
+        precio: "Desde R$ 190",
+        descripcion: "Una de las excursiones más famosas de Río de Janeiro. La Pedra do Telégrafo ofrece una caminata en plena naturaleza y una vista panorámica impresionante del litoral carioca. Ideal para quienes buscan aventura, contacto con la naturaleza y fotos icónicas, todo en una experiencia guiada y segura.",
+        imagenes: [
+            "/assets/img/naturaleza/telegrafo/tele1.png",
+            "/assets/img/naturaleza/telegrafo/tele2.png",
+            "/assets/img/naturaleza/telegrafo/tele3.png",
+            "/assets/img/naturaleza/telegrafo/tele4.png",
+            "/assets/img/naturaleza/telegrafo/tele5.png"
+        ],
+        detalles: {
+            duracion: "6 a 7 horas aprox.",
+            ubicacion: "Zona Oeste – Río de Janeiro",
+            incluye: "Transporte ida y vuelta, guía turístico especializado",
+            noIncluye: "Comidas, bebidas y gastos personales"
+        }
+    },
+    {
+        id: "morro-dois-irmaos",
+        categoria: "naturaleza-excursiones",
+        titulo: "Trilha Morro Dois Irmãos – Vista Privilegiada de Río",
+        precio: "Desde R$ 250",
+        descripcion: "Una de las caminatas más completas y espectaculares de Río de Janeiro. La trilha del Morro Dois Irmãos atraviesa áreas verdes y culmina con una de las vistas más impactantes de la ciudad, abarcando Leblon, Ipanema, Lagoa y São Conrado. Ideal para amantes del trekking y la naturaleza.",
+        imagenes: [
+            "./assets/img/naturaleza/doisirmaos/dos1.png",
+            "./assets/img/naturaleza/doisirmaos/dos2.png",
+            "./assets/img/naturaleza/doisirmaos/dos3.png",
+            "./assets/img/naturaleza/doisirmaos/dos4.png"
+        ],
+        detalles: {
+            duracion: "Medio día",
+            ubicacion: "Zona Sur – Río de Janeiro",
+            incluye: "Guía especializado, acompañamiento durante la caminata",
+            noIncluye: "Transporte, comidas y bebidas"
+        }
+    },
+    {
+        id: "floresta-tijuca-jeep",
+        categoria: "naturaleza-excursiones",
+        titulo: "Floresta da Tijuca en Jeep – Naturaleza y Cascadas",
+        precio: "Desde R$ 250",
+        descripcion: "Explorá la mayor selva urbana del mundo en un recorrido cómodo y lleno de paisajes increíbles. El tour en jeep por la Floresta da Tijuca combina naturaleza, cascadas, miradores y aire puro, ideal para quienes desean conocer el lado más verde de Río sin realizar caminatas exigentes.",
+        imagenes: [
+            "./assets/img/naturaleza/tiujca/yuca1.png",
+            "./assets/img/naturaleza/tiujca/yuca2.png",
+            "./assets/img/naturaleza/tiujca/yuca3.png",
+            "./assets/img/naturaleza/tiujca/yuca4.png",
+            "./assets/img/naturaleza/tiujca/yuca5.png",
+            "./assets/img/naturaleza/tiujca/yuca6.png",
+            "./assets/img/naturaleza/tiujca/yuca7.png"
+        ],
+        detalles: {
+            duracion: "Medio día",
+            ubicacion: "Parque Nacional da Tijuca – Río de Janeiro",
+            incluye: "Transporte en jeep, guía especializado",
+            noIncluye: "Comidas, bebidas y gastos personales"
+        }
+    },
+    {
+        id: "petropolis",
+        categoria: "naturaleza-excursiones",
+        titulo: "Tour Petrópolis – Ciudad Imperial",
+        precio: "Desde R$ 275",
+        descripcion: "Una excursión imperdible a la encantadora ciudad de Petrópolis, ubicada en la región serrana. Conocida como la Ciudad Imperial, combina historia, arquitectura europea y naturaleza. Un paseo ideal para salir de Río y descubrir un entorno más fresco, cultural y relajado.",
+        imagenes: [
+            "./assets/img/naturaleza/petropolis/pet1.png",
+            "./assets/img/naturaleza/petropolis/pet2.png",
+            "./assets/img/naturaleza/petropolis/pet3.png",
+            "./assets/img/naturaleza/petropolis/pet4.png",
+            "./assets/img/naturaleza/petropolis/pet5.png"
+        ],
+        detalles: {
+            duracion: "Día completo",
+            ubicacion: "Petrópolis – Región Serrana de Río de Janeiro",
+            incluye: "Transporte ida y vuelta, guía bilingüe, entradas a museos y atracciones, almuerzo buffet",
+            noIncluye: "Bebidas, postres y gastos personales"
+        }
+    },
+    {
+        id: "favela-vidigal",
+        categoria: "experiencias-locales",
+        titulo: "Tour Favela Vidigal – Alto do Vidigal",
+        precio: "Desde R$ 199",
+        descripcion: "Viví una de las experiencias más auténticas de Río de Janeiro recorriendo la comunidad de Vidigal. Este tour combina cultura local, historia, mirantes espectaculares y la energía única del famoso Alto do Vidigal, ofreciendo una mirada real y respetuosa de la vida en la favela.",
+        imagenes: [
+            "./assets/img/experiencias/vidigal/vidi1.png",
+            "./assets/img/experiencias/vidigal/vidi2.png"
+        ],
+        detalles: {
+            duracion: "4 horas aprox.",
+            ubicacion: "Vidigal – Zona Sur, Río de Janeiro",
+            incluye: "Transporte ida y vuelta, guía bilingüe, caminata guiada por la comunidad, paradas en mirantes",
+            noIncluye: "Comidas, bebidas y gastos personales"
+        }
+    },
+    {
+        id: "favela-rocinha",
+        categoria: "experiencias-locales",
+        titulo: "Tour Favela Rocinha – Experiencia Cultural",
+        precio: "Desde R$ 199",
+        descripcion: "Conocé de cerca la mayor favela de Latinoamérica en un recorrido cultural y seguro. El tour por Rocinha incluye mirantes, murales de arte, espacios culturales y museos comunitarios, brindando una experiencia enriquecedora que muestra la historia, la identidad y la fuerza de la comunidad local.",
+        imagenes: [
+            "./assets/img/experiencias/rocina/roci1.png",
+            "./assets/img/experiencias/rocina/roci2.png",
+            "./assets/img/experiencias/rocina/roci3.png",
+            "./assets/img/experiencias/rocina/roci4.png",
+            "./assets/img/experiencias/rocina/roci5.png",
+            "./assets/img/experiencias/rocina/roci6.png"
+        ],
+        detalles: {
+            duracion: "Medio día",
+            ubicacion: "Rocinha – Río de Janeiro",
+            incluye: "Guía autorizado y especializado, recorrido guiado por la comunidad, paradas en mirantes",
+            noIncluye: "Comidas, bebidas, transporte y servicios adicionales"
+        }
+    },
+    {
+        id: "favela-santa-marta",
+        categoria: "experiencias-locales",
+        titulo: "Tour Favela Santa Marta – Cultura y Mirantes",
+        precio: "Desde R$ 195",
+        descripcion: "Descubrí la favela Santa Marta en un tour cultural lleno de historia, música y vistas increíbles. El recorrido incluye el famoso bondinho, mirantes panorámicos, proyectos sociales, arte urbano y la icónica Laje de Michael Jackson, ofreciendo una experiencia cercana y auténtica.",
+        imagenes: [
+            "./assets/img/experiencias/donamarta/dona2.png",
+            "./assets/img/experiencias/donamarta/dona1.png",
+            "./assets/img/experiencias/donamarta/dona3.png"
+        ],
+        detalles: {
+            duracion: "2 horas aprox.",
+            ubicacion: "Santa Marta – Botafogo, Río de Janeiro",
+            incluye: "Guía local, recorrido guiado por la comunidad, acceso a mirantes y puntos culturales",
+            noIncluye: "Transporte hasta el punto de encuentro, comidas y bebidas"
+        }
+    },
+    {
+        id: "stand-up-amanecer",
+        categoria: "experiencias-locales",
+        titulo: "Stand Up Paddle al Amanecer – Copacabana",
+        precio: "Desde R$ 190",
+        descripcion: "Una experiencia única para comenzar el día en Río de Janeiro. Remá en stand up paddle mientras el sol sale sobre el mar de Copacabana, en una actividad guiada, segura y perfecta para todos los niveles, con fotos y videos incluidos para llevarte un recuerdo inolvidable.",
+        imagenes: [
+            "./assets/img/experiencias/standup/standup1.jpeg",
+            "./assets/img/experiencias/standup/standup2.jpeg",
+            "./assets/img/experiencias/standup/standup3.jpeg",
+            "./assets/img/experiencias/standup/standup4.jpeg",
+            "./assets/img/experiencias/standup/standup5.jpeg",
+            "./assets/img/experiencias/standup/standup6.jpeg",
+            "./assets/img/experiencias/standup/standup7.jpeg",
+            "./assets/img/experiencias/standup/standup8.jpeg",
+            "./assets/img/experiencias/standup/standup9.jpeg"
+
+        ],
+        detalles: {
+            duracion: "2 horas aprox.",
+            ubicacion: "Copacabana – Posto 6, Río de Janeiro",
+            incluye: "Tabla de stand up paddle, instrucción, guarda-volúmenes, chaleco salvavidas, fotos y videos",
+            noIncluye: "Transporte, comidas y bebidas"
+        }
+    },
+    {
+        id: "helicoptero-rio",
+        categoria: "experiencias-premium",
+        titulo: "Paseo en Helicóptero – Río de Janeiro",
+        precio: "Desde R$ 2.000",
+        descripcion: "Un vuelo panorámico exclusivo sobre los paisajes más icónicos de Río de Janeiro. Durante 15 a 25 minutos disfrutarás de vistas privilegiadas de playas, montañas y monumentos emblemáticos, en una experiencia ideal para quienes buscan lujo, emoción y recuerdos inolvidables.",
+        imagenes: [
+            "./assets/img/experienciaspremium/tourhelicoptero/heli1.png",
+            "./assets/img/experienciaspremium/tourhelicoptero/heli2.png",
+            "./assets/img/experienciaspremium/tourhelicoptero/heli3.png",
+            "./assets/img/experienciaspremium/tourhelicoptero/heli4.png",
+            "./assets/img/experienciaspremium/tourhelicoptero/heli5.png"
+
+        ],
+        detalles: {
+            duracion: "15 a 25 minutos",
+            ubicacion: "Río de Janeiro",
+            incluye: "Vuelo panorámico en helicóptero, piloto profesional certificado, briefing de seguridad",
+            noIncluye: "Traslado al helipuerto, fotos o videos profesionales, gastos personales"
+        }
+    },
+    {
+        id: "helicoptero-sin-puertas",
+        categoria: "experiencias-premium",
+        titulo: "Tour en Helicóptero sin Puertas – Río de Janeiro",
+        precio: "Desde R$ 2.950",
+        descripcion: "Una experiencia aérea extrema y sofisticada. Volá sin puertas durante 30 minutos sobre más de 20 puntos icónicos de Río de Janeiro, con vistas totalmente abiertas y una sensación de libertad absoluta.",
+        imagenes: [
+            "./assets/img/experienciaspremium/helisin/helisin2.png",
+            "./assets/img/experienciaspremium/helisin/helisin1.png",
+            "./assets/img/experienciaspremium/helisin/helisin3.png",
+            "./assets/img/experienciaspremium/helisin/helisin4.png"
+        ],
+        detalles: {
+            duracion: "30 minutos",
+            ubicacion: "Río de Janeiro",
+            incluye: "Vuelo sin puertas, piloto profesional certificado, equipamiento de seguridad",
+            noIncluye: "Traslados, fotos y videos profesionales, gastos personales"
+        }
+    },
+    {
+        id: "ala-delta-pedra-bonita",
+        categoria: "experiencias-premium",
+        titulo: "Vuelo en Ala Delta – Pedra Bonita",
+        precio: "Desde R$ 1.300",
+        descripcion: "Viví la emoción de volar en ala delta desde Pedra Bonita acompañado por un instructor certificado. Disfrutá de vistas increíbles de montañas, selva y mar en una experiencia segura, intensa e inolvidable.",
+        imagenes: [
+            "./assets/img/experienciaspremium/aladelta/ala1.png",
+            "./assets/img/experienciaspremium/aladelta/ala4.png",
+            "./assets/img/experienciaspremium/aladelta/ala5.png",
+            "./assets/img/experienciaspremium/aladelta/ala6.png"
+        ],
+        detalles: {
+            duracion: "15 a 20 minutos",
+            ubicacion: "Pedra Bonita – São Conrado",
+            incluye: "Vuelo con instructor certificado, equipo completo, instrucción previa, transporte hasta la rampa",
+            noIncluye: "Fotos y videos profesionales, gastos personales"
+        }
+    },
+    {
+        id: "parapente-niteroi",
+        categoria: "experiencias-premium",
+        titulo: "Parapente – Niterói",
+        precio: "Desde R$ 900",
+        descripcion: "Disfrutá la sensación de volar en parapente sobre los paisajes naturales de Niterói. Una experiencia que combina adrenalina, tranquilidad y vistas increíbles del océano, ideal para quienes buscan algo diferente.",
+        imagenes: [
+            "./assets/img/experienciaspremium/parapente/para1.png",
+            "./assets/img/experienciaspremium/parapente/para2.png"
+        ],
+        detalles: {
+            duracion: "7 a 12 minutos (aprox.)",
+            ubicacion: "Parque da Cidade – Niterói",
+            incluye: "Vuelo con instructor certificado, fotos y videos incluidos, equipo completo",
+            noIncluye: "Traslados, gastos personales"
+        }
+    },
+    {
+        id: "buggy-buzios",
+        categoria: "experiencias-premium",
+        titulo: "Tour en Buggy – Búzios",
+        precio: "Desde R$ 130",
+        descripcion: "Recorré Búzios en un divertido tour en buggy visitando playas paradisíacas, mirantes naturales y puntos ideales para fotos. Una forma relajada y emocionante de conocer uno de los destinos más encantadores de Brasil.",
+        imagenes: [
+            "./assets/img/experienciaspremium/buggy/buggy1.png"
+        ],
+        detalles: {
+            duracion: "1 hora y 20 minutos",
+            ubicacion: "Búzios – Río de Janeiro",
+            incluye: "Paseo en buggy, conductor/guía, paradas para fotos",
+            noIncluye: "Comidas, bebidas, gastos personales"
         }
     },
 ];
