@@ -377,11 +377,11 @@ const EXPERIENCES = [
         precio: "Desde R$ 190",
         descripcion: "Una de las excursiones más famosas de Río de Janeiro. La Pedra do Telégrafo ofrece una caminata en plena naturaleza y una vista panorámica impresionante del litoral carioca. Ideal para quienes buscan aventura, contacto con la naturaleza y fotos icónicas, todo en una experiencia guiada y segura.",
         imagenes: [
-            "/assets/img/naturaleza/telegrafo/tele1.png",
-            "/assets/img/naturaleza/telegrafo/tele2.png",
-            "/assets/img/naturaleza/telegrafo/tele3.png",
-            "/assets/img/naturaleza/telegrafo/tele4.png",
-            "/assets/img/naturaleza/telegrafo/tele5.png"
+            "./assets/img/naturaleza/telegrafo/tele1.png",
+            "./assets/img/naturaleza/telegrafo/tele2.png",
+            "./assets/img/naturaleza/telegrafo/tele3.png",
+            "./assets/img/naturaleza/telegrafo/tele4.png",
+            "./assets/img/naturaleza/telegrafo/tele5.png"
         ],
         detalles: {
             duracion: "6 a 7 horas aprox.",
