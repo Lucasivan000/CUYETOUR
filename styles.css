@@ -1291,6 +1291,116 @@ body {
 
 
 
+
+/* ========================= */
+/* CADASTUR – CONFIANZA LEGAL */
+/* ========================= */
+
+.cadastur {
+    position: relative;
+    z-index: 2;
+    background: var(--color-bg);
+}
+
+.cadastur__container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 40px;
+
+    align-items: center;
+}
+
+/* TEXTO */
+.cadastur__title {
+    font-size: 1.9rem;
+    font-weight: 800;
+    margin-bottom: 14px;
+
+    color: var(--color-blue-deep);
+}
+
+.cadastur__text {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+    margin-bottom: 18px;
+
+    max-width: 520px;
+}
+
+/* LINK */
+.cadastur__link {
+    display: inline-block;
+
+    font-weight: 700;
+    text-decoration: none;
+
+    color: var(--color-blue-ocean);
+    border-bottom: 2px solid var(--color-gold-main);
+
+    transition: all 0.2s ease;
+}
+
+.cadastur__link:hover {
+    color: var(--color-blue-deep);
+    border-color: var(--color-gold-dark);
+}
+
+/* TARJETA */
+.cadastur__card {
+    background: #fff;
+    border-radius: var(--border-radius-lg);
+    padding: 24px;
+
+    box-shadow: var(--shadow-soft);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastur__card img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
+
+@media (max-width: 1024px) {
+    .cadastur__container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .cadastur__text {
+        margin: 0 auto 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cadastur {
+        padding: 60px 16px;
+    }
+
+    .cadastur__title {
+        font-size: 1.6rem;
+    }
+
+    .cadastur__card img {
+        max-width: 220px;
+    }
+}
+
+
+
+
+
 /* footer */
 .footer {
     /* CAMBIO CLAVE: fondo más oscuro y neutro (no compite con contacto) */
