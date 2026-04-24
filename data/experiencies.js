@@ -274,4 +274,84 @@ const EXPERIENCES = [
             noIncluye: "Gastos personales, extras no especificados"
         }
     },
+    {
+        id: "acuario-boulevard",
+        categoria: "city-tours",
+        titulo: "Acuario de Río + Boulevard Olímpico",
+        precio: "Desde R$ 250",
+        descripcion: "Un paseo ideal para todas las edades que combina naturaleza marina, arte urbano y los espacios más modernos de Río de Janeiro. Visitá el acuario marino más grande de América del Sur, con túneles subacuáticos y cientos de especies, y recorré el renovado Boulevard Olímpico, una de las zonas más vibrantes de la ciudad, llena de historia, cultura y murales icónicos.",
+        imagenes: [
+            "./assets/img/citytours/acuario/acuario1.png"
+        ],
+        detalles: {
+            duracion: "Medio día",
+            ubicacion: "Río de Janeiro",
+            incluye: "Transporte ida y vuelta desde el hotel, guía bilingüe, entrada al acuario",
+            noIncluye: "Comidas, bebidas y atracciones no especificadas"
+        }
+    },
+    {
+        id: "1-dia-en-rio",
+        categoria: "city-tours",
+        titulo: "Tour Completo – 1 Día en Río de Janeiro",
+        precio: "Desde R$ 490",
+        descripcion: "La opción más completa para conocer Río de Janeiro en un solo día. Este tour recorre los principales íconos de la ciudad, combinando paisajes espectaculares, cultura e historia. Incluye visitas al Cristo Redentor y al Pan de Azúcar, además de un recorrido panorámico por barrios tradicionales, playas y puntos culturales, todo con transporte cómodo y guía especializado.",
+        imagenes: [
+            "./assets/img/citytours/1dia/1dia1.png"
+        ],
+        detalles: {
+            duracion: "9 a 10 horas aprox.",
+            ubicacion: "Río de Janeiro",
+            incluye: "Transporte ejecutivo climatizado, guía bilingüe, entrada al Cristo Redentor, entrada y teleférico al Pan de Azúcar, almuerzo buffet",
+            noIncluye: "Bebidas, postres y gastos personales"
+        }
+    },
+    {
+        id: "corcovado-city",
+        categoria: "city-tours",
+        titulo: "Tour Corcovado y City Tour",
+        precio: "Desde R$ 260",
+        descripcion: "Un tour ideal para conocer lo esencial de Río de Janeiro. Incluye la visita al Cristo Redentor, uno de los monumentos más famosos del mundo, y un recorrido panorámico por los principales puntos turísticos y culturales de la ciudad. Perfecto para quienes tienen poco tiempo y quieren una experiencia completa y bien organizada.",
+        imagenes: [
+            "./assets/img/citytours/corcovado/corcovado1.png"
+        ],
+        detalles: {
+            duracion: "Medio día",
+            ubicacion: "Río de Janeiro",
+            incluye: "Transporte ejecutivo climatizado, guía bilingüe, entrada al Cristo Redentor, city tour panorámico",
+            noIncluye: "Comidas, bebidas y gastos personales"
+        }
+    },
+    {
+        id: "rio-aventura",
+        categoria: "city-tours",
+        titulo: "Tour Río de Aventura – Pan de Azúcar, AquaRio y BioParque",
+        precio: "Desde R$ 655",
+        descripcion: "Un día completo combinando paisajes, diversión y naturaleza. Este tour reúne tres grandes atracciones de Río: el Pan de Azúcar con su teleférico panorámico, el AquaRio y el BioParque, un zoológico moderno enfocado en la conservación. Ideal para familias y viajeros que buscan una experiencia variada y dinámica.",
+        imagenes: [
+            "./assets/img/citytours/aventura/aventura1.png"
+        ],
+        detalles: {
+            duracion: "7 horas aprox.",
+            ubicacion: "Río de Janeiro",
+            incluye: "Transporte ida y vuelta, guía especializado, entradas a Pan de Azúcar, AquaRio y BioParque, almuerzo",
+            noIncluye: "Bebidas, postres y servicios adicionales"
+        }
+    },
+    {
+        id: "maracana",
+        categoria: "city-tours",
+        titulo: "Tour Estadio Maracanã",
+        precio: "Desde R$ 250",
+        descripcion: "Una experiencia imperdible para los amantes del fútbol y la cultura brasileña. Conocé el mítico Estadio Maracanã, escenario de finales históricas y grandes momentos del deporte mundial. El tour recorre el exterior del estadio y su entorno, con explicaciones sobre su historia y relevancia cultural.",
+        imagenes: [
+            "./assets/img/citytours/maracana/maracana1.png"
+        ],
+        detalles: {
+            duracion: "Corta duración",
+            ubicacion: "Río de Janeiro",
+            incluye: "Transporte ida y vuelta, guía bilingüe, visita externa al estadio",
+            noIncluye: "Ingreso al interior del estadio, comidas y bebidas"
+        }
+    },
 ];
