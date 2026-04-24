@@ -365,15 +365,17 @@ body {
 
 
 
-/* ============================= */
-/* EXPERIENCE SELECTOR           */
-/* ============================= */
+/* ============================
+   EXPERIENCE SELECTOR
+   ============================ */
+
 .experience-selector {
     background-color: var(--color-bg);
     padding: 48px 0 32px;
 }
 
-/* Contenedor */
+/* ---------- Container ---------- */
+
 .experience-selector__container {
     max-width: 1200px;
     margin: 0 auto;
@@ -384,17 +386,26 @@ body {
     font-size: 1.25rem;
     font-weight: 700;
     color: var(--color-blue-deep);
-    margin-bottom: 20px;
+    margin-bottom: 6px;
+}
+
+/* ---------- Mobile hint ---------- */
+
+.experience-selector__hint {
+    font-size: 0.85rem;
+    color: var(--color-muted);
+    margin-bottom: 14px;
 }
 
 /* ---------- Chips container (MOBILE FIRST) ---------- */
 
 .experience-chips {
+    position: relative;
+
     display: flex;
     gap: 12px;
 
     flex-wrap: nowrap;
-    /* 🔴 CLAVE */
     overflow-x: auto;
     overflow-y: hidden;
 
@@ -404,8 +415,37 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+/* Hide scrollbar */
 .experience-chips::-webkit-scrollbar {
     display: none;
+}
+
+/* ---------- Scroll affordance (fade edges) ---------- */
+
+.experience-chips::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 48px;
+    height: 100%;
+    pointer-events: none;
+    background: linear-gradient(to left,
+            var(--color-bg) 0%,
+            rgba(255, 255, 255, 0) 100%);
+}
+
+.experience-chips::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 100%;
+    pointer-events: none;
+    background: linear-gradient(to right,
+            var(--color-bg) 0%,
+            rgba(255, 255, 255, 0) 100%);
 }
 
 /* ---------- Chip ---------- */
@@ -414,9 +454,7 @@ body {
     position: relative;
 
     flex: 0 0 auto;
-    /* 🔴 CLAVE */
     min-width: max-content;
-    /* 🔴 CLAVE */
 
     padding: 14px 22px;
     border-radius: 999px;
@@ -456,16 +494,30 @@ body {
     font-weight: 700;
 }
 
-/* ---------- Desktop alignment ---------- */
+/* ---------- Emphasis on "All" chip ---------- */
+
+.experience-chip[data-category="all"] {
+    border-width: 2px;
+}
+
+/* ---------- Desktop ---------- */
 
 @media (min-width: 768px) {
+
+    .experience-selector__hint {
+        display: none;
+    }
+
     .experience-chips {
         overflow-x: visible;
         flex-wrap: wrap;
-        /* ahora sí se acomodan */
+    }
+
+    .experience-chips::before,
+    .experience-chips::after {
+        display: none;
     }
 }
-
 
 
 
@@ -852,6 +904,7 @@ body {
     margin-top: 6px;
     margin-bottom: 10px;
 }
+
 .experience-detail__gallery {
     margin-bottom: 10px;
 }

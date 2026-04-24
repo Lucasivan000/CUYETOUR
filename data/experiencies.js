@@ -116,5 +116,5 @@ const EXPERIENCES = [
             incluye: "Transporte ida y vuelta, paseo en barco, guía bilingüe, almuerzo en ciudad",
             noIncluye: "Bebidas y postre"
         }
-    }
+    },
 ];

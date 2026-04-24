@@ -74,6 +74,9 @@
                 <h2 class="experience-selector__title">
                     ¿Qué tipo de experiencia buscás?
                 </h2>
+                <p class="experience-selector__hint">
+                    Deslizá para ver más experiencias →
+                </p>
 
                 <div class="experience-chips" role="tablist">
 
@@ -140,7 +143,7 @@
 
                         <div class="experience-card__content">
                             <h3 class="experience-card__title">
-                                Tour Angra dos Reís é  Isla Grande
+                                Tour Angra dos Reís é Isla Grande
                             </h3>
 
                             <p class="experience-card__text">
@@ -163,7 +166,8 @@
                             </h3>
 
                             <p class="experience-card__text">
-                                Recorrido en barco por las islas de Angra dos Reis con tiempo libre para nadar, relajarte y disfrutar del paisaje natural.
+                                Recorrido en barco por las islas de Angra dos Reis con tiempo libre para nadar,
+                                relajarte y disfrutar del paisaje natural.
                             </p>
 
                             <span class="experience-card__price">
@@ -182,7 +186,8 @@
                             </h3>
 
                             <p class="experience-card__text">
-                                Recorrido en barco por las playas más famosas de Búzios con paradas para baño en aguas cristalinas.
+                                Recorrido en barco por las playas más famosas de Búzios con paradas para baño en aguas
+                                cristalinas.
                             </p>
 
                             <span class="experience-card__price">
@@ -201,7 +206,8 @@
                             </h3>
 
                             <p class="experience-card__text">
-                                Navegación en catamarán por Búzios con ambiente relajado, música y paradas para disfrutar el mar.
+                                Navegación en catamarán por Búzios con ambiente relajado, música y paradas para
+                                disfrutar el mar.
                             </p>
 
                             <span class="experience-card__price">
@@ -606,6 +612,38 @@
                 navbarNav.classList.remove("active");
                 navbarToggle.classList.remove("active");
             }
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const chips = document.querySelector(".experience-chips");
+
+            if (!chips || window.innerWidth >= 768) return;
+
+            let hasNudged = false;
+
+            const observer = new IntersectionObserver(
+                ([entry]) => {
+                    if (entry.isIntersecting && !hasNudged) {
+                        hasNudged = true;
+
+                        chips.scrollBy({
+                            left: 60,
+                            behavior: "smooth"
+                        });
+
+                        setTimeout(() => {
+                            chips.scrollBy({
+                                left: -60,
+                                behavior: "smooth"
+                            });
+                        }, 500);
+                    }
+                },
+                { threshold: 0.6 }
+            );
+
+            observer.observe(chips);
         });
     </script>
     <script src="./data/experiencies.js"></script>
