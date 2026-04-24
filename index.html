@@ -657,6 +657,7 @@
         const experiencesSection = document.querySelector(".experiences");
         const detailSection = document.getElementById("experience-detail");
         const backButton = document.getElementById("detail-back");
+        history.replaceState({ view: "grid" }, "", location.pathname);
 
         // ============================
         // FILTRADO POR CATEGORÍA
@@ -854,6 +855,8 @@
             experiencesSection.classList.add("is-hidden");
             detailSection.classList.remove("is-hidden");
 
+            history.pushState({ view: "detail", id }, "", `#experiencia-${id}`);
+
             detailSection.scrollIntoView({
                 behavior: "smooth",
                 block: "start"
@@ -864,8 +867,21 @@
         // VOLVER
         // ============================
         backButton.addEventListener("click", () => {
-            detailSection.classList.add("is-hidden");
-            experiencesSection.classList.remove("is-hidden");
+            history.back();
+        });
+
+        // ============================
+        // BOTÓN ATRÁS DEL NAVEGADOR / CELULAR
+        // ============================
+        window.addEventListener("popstate", (e) => {
+            // Si no hay estado o volvemos a grilla
+            if (!e.state || e.state.view === "grid") {
+                detailSection.classList.add("is-hidden");
+                experiencesSection.classList.remove("is-hidden");
+
+                // Opcional UX: aseguramos scroll natural
+                // window.scrollTo({ top: 0, behavior: "auto" });
+            }
         });
     </script>
 
