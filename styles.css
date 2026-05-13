@@ -1,0 +1,1538 @@
+/* ============================= */
+/* RESET CSS */
+/* ============================= */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-text-main);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+/* ============================= */
+/* ROOT VARIABLES – BRAND SYSTEM */
+/* ============================= */
+:root {
+
+    /* ---- Neutrales ---- */
+    --color-bg: #F8F8F6;
+    --color-text-main: #1F3A4A;
+    --color-text-muted: #5C6F7A;
+
+    /* ---- Dorados (Identidad) ---- */
+    --color-gold-main: #D4AF37;
+    --color-gold-dark: #B8962E;
+    --color-gold-light: #F2D675;
+
+    /* ---- Azules (Mar / Confianza) ---- */
+    --color-blue-deep: #1F3A4A;
+    --color-blue-ocean: #2F6F8F;
+    --color-blue-light: #5FA8C6;
+
+    /* ---- Verdes (Naturaleza) ---- */
+    --color-green-main: #4E7C4A;
+    --color-green-light: #7FB77E;
+
+    /* ---- Amarillo Sol ---- */
+    --color-sun: #F2C94C;
+
+    /* ---- Gradientes ---- */
+    --gradient-gold: linear-gradient(135deg,
+            #F2D675 0%,
+            #D4AF37 50%,
+            #B8962E 100%);
+
+    --gradient-ocean: linear-gradient(180deg,
+            #5FA8C6 0%,
+            #2F6F8F 60%,
+            #1F3A4A 100%);
+
+    --gradient-nature: linear-gradient(180deg,
+            #7FB77E 0%,
+            #4E7C4A 100%);
+
+    /* ---- UI ---- */
+    --border-radius-sm: 6px;
+    --border-radius-md: 12px;
+    --border-radius-lg: 24px;
+
+    --shadow-soft: 0 8px 24px rgba(31, 58, 74, 0.15);
+    --shadow-gold: 0 6px 20px rgba(212, 175, 55, 0.35);
+}
+
+
+
+
+
+
+
+
+
+
+/* ============================= */
+/* NAVBAR */
+/* ============================= */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--color-bg);
+    box-shadow: var(--shadow-soft);
+}
+
+.navbar__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 14px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ---------- Brand ---------- */
+
+
+/* contenedor general */
+.navbar__brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    text-decoration: none;
+}
+
+/* logo */
+.navbar__logo {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+/* bloque texto */
+.navbar__brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+
+/* título principal (CUYE) */
+.navbar__title {
+    font-size: 1.30rem;
+    font-weight: 700;
+    color: var(--color-blue-deep);
+}
+
+/* parte dorada (TOUR) */
+.navbar__highlight {
+    color: var(--color-gold-main);
+}
+
+/* tagline */
+.navbar__tagline {
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+    opacity: 0.85;
+    letter-spacing: 0.2px;
+    margin-top: 2px;
+}
+
+/* ---------- Nav ---------- */
+.navbar__nav {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.navbar__link {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--color-text-main);
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar__link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: var(--color-gold-main);
+    transition: width 0.25s ease;
+}
+
+.navbar__link:hover::after {
+    width: 100%;
+}
+
+/* ---------- CTA ---------- */
+.navbar__cta {
+    padding: 10px 18px;
+    border-radius: var(--border-radius-md);
+    background: var(--gradient-gold);
+    color: var(--color-blue-deep);
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    box-shadow: var(--shadow-gold);
+}
+
+/* ---------- Hamburger ---------- */
+.navbar__toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar__toggle span {
+    width: 24px;
+    height: 2px;
+    background-color: var(--color-blue-deep);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* ============================= */
+/* MOBILE */
+/* ============================= */
+@media (max-width: 768px) {
+
+    .navbar__toggle {
+        display: flex;
+    }
+
+    .navbar__nav {
+        position: fixed;
+        top: 64px;
+        right: 0;
+        width: 100%;
+        max-width: 320px;
+        height: calc(100vh - 64px);
+        background-color: var(--color-bg);
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 20px;
+
+        transform: translateX(100%);
+        transition: transform 0.35s ease;
+        box-shadow: var(--shadow-soft);
+    }
+
+    .navbar__nav.active {
+        transform: translateX(0);
+    }
+
+    .navbar__cta {
+        width: 100%;
+        text-align: center;
+        margin-top: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* ============================= */
+/* HERO SELECTOR */
+/* ============================= */
+
+.hero {
+    position: relative;
+    background-color: var(--color-bg);
+    overflow: hidden;
+}
+
+/* ---------- Imagen de fondo sutil ---------- */
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("./assets/img/hero-playa.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.80;
+    /* ahora SI se ve */
+    filter: saturate(0.95) contrast(1.05);
+    pointer-events: none;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg,
+            rgba(248, 248, 246, 0.65) 0%,
+            rgba(248, 248, 246, 0.85) 100%);
+    pointer-events: none;
+}
+
+/* ---------- Contenedor ---------- */
+.hero__container {
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 72px 20px 56px;
+}
+
+/* ---------- Contenido ---------- */
+.hero__content {
+    max-width: 680px;
+}
+
+/* ---------- Texto ---------- */
+.hero__title {
+    font-size: clamp(2.2rem, 5vw, 3rem);
+    line-height: 1.15;
+    font-weight: 800;
+    color: var(--color-blue-deep);
+    margin-bottom: 16px;
+    text-shadow: 0 2px 8px rgba(31, 58, 74, 0.15);
+}
+
+.hero__title::after {
+    content: "";
+    display: block;
+    width: 48px;
+    height: 3px;
+    margin-top: 12px;
+    background: var(--color-gold-main);
+    border-radius: 2px;
+}
+
+.hero__subtitle {
+    font-size: 1.05rem;
+    max-width: 520px;
+    color: var(--color-text-main);
+    opacity: 0.85;
+}
+
+
+
+
+
+
+/* ============================= */
+/* DESKTOP */
+/* ============================= */
+@media (min-width: 768px) {
+
+    .hero__container {
+        padding: 96px 20px 72px;
+    }
+
+    .hero__title {
+        font-size: 2.6rem;
+    }
+
+    .hero__subtitle {
+        font-size: 1.05rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* ============================
+   EXPERIENCE SELECTOR
+   ============================ */
+
+.experience-selector {
+    background-color: var(--color-bg);
+    padding: 48px 0 32px;
+}
+
+/* ---------- Container ---------- */
+
+.experience-selector__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.experience-selector__title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-blue-deep);
+    margin-bottom: 6px;
+}
+
+/* ---------- Mobile hint ---------- */
+
+.experience-selector__hint {
+    font-size: 0.85rem;
+    color: var(--color-muted);
+    margin-bottom: 14px;
+}
+
+/* ---------- Chips container (MOBILE FIRST) ---------- */
+
+.experience-chips {
+    position: relative;
+
+    display: flex;
+    gap: 12px;
+
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    padding: 4px 0 12px;
+
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Hide scrollbar */
+.experience-chips::-webkit-scrollbar {
+    display: none;
+}
+
+/* ---------- Scroll affordance (fade edges) ---------- */
+
+.experience-chips::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 48px;
+    height: 100%;
+    pointer-events: none;
+    background: linear-gradient(to left,
+            var(--color-bg) 0%,
+            rgba(255, 255, 255, 0) 100%);
+}
+
+.experience-chips::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 100%;
+    pointer-events: none;
+    background: linear-gradient(to right,
+            var(--color-bg) 0%,
+            rgba(255, 255, 255, 0) 100%);
+}
+
+/* ---------- Chip ---------- */
+
+.experience-chip {
+    position: relative;
+
+    flex: 0 0 auto;
+    min-width: max-content;
+
+    padding: 14px 22px;
+    border-radius: 999px;
+
+    background-color: rgba(255, 255, 255, 0.85);
+    color: var(--color-blue-deep);
+
+    border: 1px solid rgba(31, 58, 74, 0.15);
+    cursor: pointer;
+
+    font-size: 0.95rem;
+    font-weight: 600;
+
+    transition:
+        background-color 0.25s ease,
+        box-shadow 0.25s ease,
+        transform 0.2s ease;
+
+    scroll-snap-align: start;
+}
+
+.experience-chip:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-soft);
+}
+
+/* ---------- Active state ---------- */
+
+.experience-chip.is-active {
+    background: var(--gradient-gold);
+    color: var(--color-blue-deep);
+    border-color: transparent;
+    box-shadow: var(--shadow-gold);
+}
+
+.experience-chip.is-active .experience-chip__label {
+    font-weight: 700;
+}
+
+/* ---------- Emphasis on "All" chip ---------- */
+
+.experience-chip[data-category="all"] {
+    border-width: 2px;
+}
+
+/* ---------- Desktop ---------- */
+
+@media (min-width: 768px) {
+
+    .experience-selector__hint {
+        display: none;
+    }
+
+    .experience-chips {
+        overflow-x: visible;
+        flex-wrap: wrap;
+    }
+
+    .experience-chips::before,
+    .experience-chips::after {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+/* ============================= */
+/* Experiences Section */
+/* ============================= */
+
+.experiences {
+    background-color: var(--color-bg);
+    padding: 32px 0 72px;
+    overflow: hidden;
+    /* blindaje */
+}
+
+.experiences__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ---------- Grid ---------- */
+
+.experiences__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+
+/* ---------- Card ---------- */
+
+.experience-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+
+    box-shadow: var(--shadow-soft);
+    border: 1px solid rgba(31, 58, 74, 0.08);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        opacity 0.25s ease;
+    cursor: pointer;
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-soft);
+}
+
+.experience-card:active {
+    transform: scale(0.98);
+}
+
+/* ---------- Image placeholder ---------- */
+
+.experience-card__image img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    border-radius: var(--border-radius-md) var(--border-radius-md) 0 0;
+}
+
+/* ---------- Content ---------- */
+
+.experience-card__content {
+    
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 18px 18px 20px;
+}
+
+.experience-card__title {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: var(--color-blue-deep);
+    margin-bottom: 6px;
+    line-height: 1.3;
+}
+
+.experience-card__text {
+    font-size: 0.92rem;
+    color: var(--color-text-muted);
+    line-height: 1.55;
+    margin-bottom: 14px;
+    opacity: 0.9;
+}
+
+.experience-card__price {
+    color: var(--color-gold-main);
+    font-weight: 900;
+    font-size: 1.15rem;
+    letter-spacing: 0.3px;
+    margin-top: auto;
+}
+
+.experience-card__tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 999px;
+
+    background: rgba(212, 175, 55, 0.15);
+    color: var(--color-blue-deep);
+}
+
+/* ---------- Hidden (JS) ---------- */
+
+.experience-card.is-hidden {
+    display: none;
+}
+
+/* ---------- Responsive Grid ---------- */
+
+@media (min-width: 768px) {
+    .experiences__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .experiences__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+
+.is-hidden {
+    display: none;
+}
+
+
+
+
+
+/* ========================= */
+/* EXPERIENCE DETAIL (PREMIUM UX/UI) */
+/* ========================= */
+
+.experience-detail {
+    background: linear-gradient(180deg,
+            var(--color-bg) 0%,
+            #f2f6f8 100%);
+    padding: 40px 0 80px;
+}
+
+/* ========================= */
+/* CONTAINER */
+/* ========================= */
+
+.experience-detail__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+/* ========================= */
+/* BACK BUTTON */
+/* ========================= */
+
+.experience-detail__back {
+    align-self: flex-start;
+
+    background: rgba(31, 58, 74, 0.06);
+    border: 1px solid rgba(31, 58, 74, 0.1);
+
+    color: var(--color-blue-deep);
+    font-weight: 600;
+
+    padding: 8px 14px;
+    border-radius: 999px;
+
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.experience-detail__back:hover {
+    background: rgba(212, 175, 55, 0.15);
+    border-color: var(--color-gold-light);
+}
+
+/* ========================= */
+/* GALLERY (SLIDER) */
+/* ========================= */
+
+.experience-detail__gallery {
+    position: relative;
+    width: 100%;
+
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+
+    box-shadow: 0 12px 30px rgba(31, 58, 74, 0.18);
+    background: #000;
+}
+
+
+/* TRACK */
+.gallery-track {
+    display: flex;
+    transition: transform 0.5s ease;
+    will-change: transform;
+}
+
+/* IMAGES */
+.gallery-track img {
+    width: 100%;
+    flex-shrink: 0;
+
+    height: 600px;
+    object-fit: cover;
+
+    object-position: center;
+}
+
+/* ========================= */
+/* SLIDER BUTTONS */
+/* ========================= */
+
+
+/* BOTÓN BASE MÁS LIVIANO */
+
+/* BOTÓN BASE MÁS SUAVE Y PREMIUM */
+.gallery-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 34px;
+    height: 34px;
+
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+    background: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.85);
+
+    backdrop-filter: blur(12px);
+
+    font-size: 16px;
+    line-height: 1;
+
+    border-radius: 10px;
+    /* 👈 menos “circulo feo”, más Apple */
+
+    opacity: 0;
+    transition: all 0.25s ease;
+
+    cursor: pointer;
+}
+
+/* APARECEN SOLO EN INTERACCIÓN */
+.experience-detail__gallery:hover .gallery-btn {
+    opacity: 1;
+}
+
+/* HOVER MÁS NATIVO / SUAVE */
+.gallery-btn:hover {
+    background: rgba(255, 255, 255, 0.18);
+    color: #fff;
+    transform: translateY(-50%) scale(1.05);
+}
+
+/* POSICIÓN */
+.gallery-btn.prev {
+    left: 10px;
+}
+
+.gallery-btn.next {
+    right: 10px;
+}
+
+
+@media (max-width: 768px) {
+
+    .experience-detail__gallery {
+        overflow: hidden;
+        touch-action: pan-y;
+        position: relative;
+    }
+
+    .gallery-track {
+        will-change: transform;
+        transition: transform 0.35s ease;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .experience-detail__gallery::before,
+    .experience-detail__gallery::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 40px;
+        height: 100%;
+        z-index: 2;
+        pointer-events: none;
+    }
+
+    .experience-detail__gallery::before {
+        left: 0;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.25), transparent);
+    }
+
+    .experience-detail__gallery::after {
+        right: 0;
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.25), transparent);
+    }
+}
+
+
+.gallery-dots {
+    position: absolute;
+    bottom: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    gap: 6px;
+
+    z-index: 3;
+}
+
+.gallery-dots span {
+    width: 6px;
+    height: 6px;
+
+    border-radius: 50%;
+
+    background: rgba(255, 255, 255, 0.4);
+
+    transition: all 0.25s ease;
+}
+
+.gallery-dots span.active {
+    background: var(--color-gold-main);
+    transform: scale(1.3);
+}
+
+/* ========================= */
+/* TEXT CONTENT */
+/* ========================= */
+.experience-detail__content {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 10px;
+}
+
+.experience-detail__title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--color-blue-deep);
+    margin-bottom: 6px;
+}
+
+.experience-detail__price {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--color-gold-dark);
+    margin-bottom: 14px;
+}
+
+.experience-detail__description {
+    color: var(--color-text-muted);
+    font-size: 1rem;
+    line-height: 1.7;
+
+    width: 100%;
+    max-width: 1100px;
+
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+.experience-detail__gallery {
+    margin-bottom: 10px;
+}
+
+
+
+/* ========================= */
+/* FEATURES (CHIPS STYLE) */
+/* ========================= */
+
+.experience-detail__features {
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    padding: 0;
+    margin-top: 10px;
+}
+
+.experience-detail__features li {
+    background: rgba(31, 58, 74, 0.06);
+    border: 1px solid rgba(31, 58, 74, 0.1);
+
+    padding: 8px 12px;
+    border-radius: 999px;
+
+    font-size: 0.85rem;
+    color: var(--color-blue-deep);
+}
+
+/* ========================= */
+/* CTA BUTTON */
+/* ========================= */
+
+.experience-detail__cta {
+    display: inline-flex;
+    align-self: flex-start;
+
+    margin-top: 22px;
+    padding: 14px 26px;
+
+    border-radius: 999px;
+
+    background: var(--gradient-gold);
+    color: #1F3A4A;
+
+    font-weight: 800;
+    text-decoration: none;
+
+    box-shadow: var(--shadow-gold);
+    transition: transform 0.2s ease;
+
+    width: fit-content;
+}
+
+.experience-detail__cta:hover {
+    transform: translateY(-2px);
+}
+
+/* ========================= */
+/* MOBILE */
+/* ========================= */
+
+@media (max-width: 768px) {
+    .gallery-track img {
+        height: 300px;
+    }
+
+    .experience-detail__title {
+        font-size: 1.7rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+.contact {
+    background: linear-gradient(135deg,
+            var(--color-blue-deep),
+            var(--color-blue-ocean));
+    padding: 80px 20px;
+    color: #fff;
+}
+
+.contact__container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 40px;
+
+    align-items: center;
+}
+
+/* ========================= */
+/* TEXTO PRINCIPAL */
+/* ========================= */
+
+.contact__title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+    color: var(--color-gold-light);
+}
+
+.contact__text {
+    font-size: 1rem;
+    line-height: 1.7;
+    opacity: 0.9;
+    margin-bottom: 12px;
+}
+
+/* CTA PRINCIPAL */
+.contact__cta {
+    display: inline-block;
+    margin-top: 20px;
+
+    padding: 14px 26px;
+    border-radius: 999px;
+
+    background: var(--gradient-gold);
+    color: #1F3A4A;
+
+    font-weight: 800;
+    text-decoration: none;
+
+    box-shadow: var(--shadow-gold);
+}
+
+/* ========================= */
+/* CONTACT CARD - SOCIAL HUB */
+/* ========================= */
+
+.contact__card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+    border-radius: var(--border-radius-lg);
+    padding: 28px;
+
+    backdrop-filter: blur(12px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+/* ========================= */
+/* BADGE + TITLES */
+/* ========================= */
+
+.contact__badge {
+    display: inline-block;
+    font-size: 0.75rem;
+
+    background: var(--color-gold-main);
+    color: #1F3A4A;
+
+    padding: 5px 12px;
+    border-radius: 999px;
+
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.contact__name {
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-bottom: 6px;
+
+    color: #fff;
+}
+
+.contact__role {
+    font-size: 0.95rem;
+    opacity: 0.85;
+    margin-bottom: 22px;
+
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.5;
+    max-width: 260px;
+}
+
+/* ========================= */
+/* SOCIAL ICONS (CENTRADOS PRO) */
+/* ========================= */
+
+.contact__socials,
+.contact__social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 18px;
+
+    width: 100%;
+    margin: 10px 0 22px;
+}
+
+.social-icon {
+    width: 74px;
+    height: 74px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 18px;
+
+    background: rgba(255, 255, 255, 0.10);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+    backdrop-filter: blur(10px);
+
+    transition: all 0.25s ease;
+
+    cursor: pointer;
+}
+
+.social-icon img {
+    width: 55px;
+    height: 55px;
+}
+
+/* hover premium */
+.social-icon:hover {
+    transform: translateY(-4px) scale(1.06);
+    background: var(--color-gold-main);
+    box-shadow: var(--shadow-gold);
+}
+
+/* ========================= */
+/* LINKTREE CTA */
+/* ========================= */
+
+.contact__linktree {
+    display: block;
+
+    margin-top: 8px;
+    padding: 14px 18px;
+
+    width: 100%;
+    max-width: 280px;
+
+    border-radius: 12px;
+
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+
+    font-weight: 700;
+    text-decoration: none;
+
+    transition: all 0.2s ease;
+}
+
+.contact__linktree:hover {
+    background: var(--color-gold-main);
+    color: #1F3A4A;
+    transform: translateY(-2px);
+}
+
+
+
+/* ========================= */
+/* TABLET (<= 1024px) */
+/* ========================= */
+
+@media (max-width: 1024px) {
+    .contact__container {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        text-align: center;
+    }
+
+    .contact__title {
+        font-size: 2rem;
+    }
+
+    .contact__text {
+        max-width: 600px;
+        margin: 0 auto 12px;
+    }
+}
+
+/* ========================= */
+/* MOBILE (<= 768px) */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    .contact {
+        padding: 60px 16px;
+    }
+
+    .contact__title {
+        font-size: 1.7rem;
+        line-height: 1.3;
+    }
+
+    .contact__text {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    /* CTA principal ocupa más protagonismo */
+    .contact__cta {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* card social más compacta */
+    .contact__card {
+        padding: 22px;
+    }
+
+    .contact__role {
+        max-width: 100%;
+    }
+
+    /* ICONOS MÁS PEQUEÑOS PERO PROPORCIONADOS */
+    .social-icon {
+        width: 62px;
+        height: 62px;
+    }
+
+    .social-icon img {
+        width: 34px;
+        height: 34px;
+    }
+
+    /* linktree más usable */
+    .contact__linktree {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/* ========================= */
+/* MOBILE PEQUEÑO (<= 480px) */
+/* ========================= */
+
+@media (max-width: 480px) {
+
+    .contact__title {
+        font-size: 1.5rem;
+    }
+
+    .contact__text {
+        font-size: 0.9rem;
+    }
+
+    /* icons en mejor proporción para pantallas chicas */
+    .social-icon {
+        width: 56px;
+        height: 56px;
+    }
+
+    .social-icon img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .contact__badge {
+        font-size: 0.7rem;
+        padding: 4px 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* ========================= */
+/* CADASTUR – CONFIANZA LEGAL */
+/* ========================= */
+
+.cadastur {
+    position: relative;
+    z-index: 2;
+    background: var(--color-bg);
+
+    padding: 80px 20px;
+}
+
+.cadastur__container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 40px;
+
+    align-items: center;
+}
+
+/* TEXTO */
+.cadastur__title {
+    font-size: 1.9rem;
+    font-weight: 800;
+    margin-bottom: 14px;
+
+    color: var(--color-blue-deep);
+}
+
+.cadastur__text {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+    margin-bottom: 18px;
+
+    max-width: 520px;
+}
+
+/* LINK */
+.cadastur__link {
+    display: inline-block;
+
+    font-weight: 700;
+    text-decoration: none;
+
+    color: var(--color-blue-ocean);
+    border-bottom: 2px solid var(--color-gold-main);
+
+    transition: all 0.2s ease;
+}
+
+.cadastur__link:hover {
+    color: var(--color-blue-deep);
+    border-color: var(--color-gold-dark);
+}
+
+/* TARJETA */
+.cadastur__card {
+    background: #fff;
+    border-radius: var(--border-radius-lg);
+    padding: 24px;
+
+    box-shadow: var(--shadow-soft);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastur__card img {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+}
+
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
+
+@media (max-width: 1024px) {
+    .cadastur__container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .cadastur__text {
+        margin: 0 auto 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cadastur {
+        padding: 60px 16px;
+    }
+
+    .cadastur__title {
+        font-size: 1.6rem;
+    }
+
+    .cadastur__card img {
+        max-width: 220px;
+    }
+}
+
+
+
+
+
+/* footer */
+.footer {
+    /* CAMBIO CLAVE: fondo más oscuro y neutro (no compite con contacto) */
+    background: linear-gradient(180deg,
+            #0b141b 0%,
+            #070d12 100%);
+
+    color: #fff;
+
+    /* IMPORTANTE: eliminamos separación que genera el “bloque blanco” */
+    padding: 80px 20px 30px;
+    margin-top: 0;
+
+    position: relative;
+}
+
+/* transición suave desde contacto */
+.footer::before {
+    content: "";
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+
+    background: linear-gradient(to bottom,
+            rgba(31, 58, 74, 0.15),
+            transparent);
+
+    pointer-events: none;
+}
+
+/* container */
+.footer__container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 40px;
+}
+
+/* brand */
+.footer__logo {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: var(--color-gold-main);
+    margin-bottom: 10px;
+}
+
+.footer__text {
+    opacity: 0.85;
+    line-height: 1.6;
+    max-width: 320px;
+}
+
+/* titles */
+.footer h4 {
+    font-size: 1rem;
+    margin-bottom: 12px;
+    color: var(--color-gold-main);
+}
+
+/* lists */
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    margin-bottom: 8px;
+    opacity: 0.85;
+    font-size: 0.95rem;
+    transition: 0.2s;
+}
+
+.footer ul li:hover {
+    opacity: 1;
+    transform: translateX(4px);
+}
+
+/* bottom */
+.footer__bottom {
+    max-width: 1200px;
+    margin: 50px auto 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+/* firma OCULTA elegante */
+.footer__credit {
+    color: rgba(255, 255, 255, 0.25);
+    text-decoration: none;
+    font-size: 0.8rem;
+
+    transition: 0.2s;
+}
+
+.footer__credit:hover {
+    color: var(--color-gold-main);
+}
+
+/* responsive */
+@media (max-width: 768px) {
+    .footer__container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer__text {
+        margin: 0 auto;
+    }
+}
