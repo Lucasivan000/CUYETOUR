@@ -16,8 +16,8 @@ const EXPERIENCES = [
         detalles: {
             duracion: "12 horas",
             ubicacion: "Arraial do Cabo, Río de Janeiro",
-            incluye: "Transporte ida y vuelta, guía registrado, almuerzo buffet, equipo básico para snorkel",
-            noIncluye: "Comidas y bebidas adicionales"
+            incluye: "Transporte. Ticket de barco. Buffet libre",
+            noIncluye: "Bebidas. Tasas maritimas"
         }
 
     },
@@ -38,8 +38,8 @@ const EXPERIENCES = [
         detalles: {
             duracion: "14 horas",
             ubicacion: "Angra dos Reis e Ilha Grande",
-            incluye: "Transporte ejecutivo ida y vuelta, guía bilingüe especializado, paseo en barco con 4 paradas para baño y snorkel, almuerzo buffet en isla",
-            noIncluye: "Equipo de snorkel, bebidas y postre"
+            incluye: "Transporte. Ticket de barco. Buffet libre",
+            noIncluye: "Bebidas. Tasas maritimas"
         }
     },
 
@@ -57,8 +57,8 @@ const EXPERIENCES = [
         detalles: {
             duracion: "14 horas aproximadamente",
             ubicacion: "Angra dos Reis, Río de Janeiro",
-            incluye: "Transporte ejecutivo ida y vuelta, guía bilingüe especializado, paseo en barco con 4 paradas para baño y snorkel, almuerzo buffet en isla",
-            noIncluye: "Equipo de snorkel, bebidas y postre"
+            incluye: "Transporte. Ticket de barco. Buffet libre",
+            noIncluye: "Bebidas. Tasas maritimas"
         }
     },
 
@@ -76,8 +76,8 @@ const EXPERIENCES = [
         detalles: {
             duracion: "6 a 7 horas aprox.",
             ubicacion: "Búzios, Río de Janeiro",
-            incluye: "Transporte ida y vuelta, paseo en barco, guía bilingüe, almuerzo en ciudad",
-            noIncluye: "Bebidas y postre"
+            incluye: "Transporte. Ticket de barco. Buffet libre",
+            noIncluye: "Bebidas. Tasas maritimas"
         }
     },
     {
