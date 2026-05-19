@@ -4,7 +4,7 @@ const EXPERIENCES = [
         categoria: "barcos",
         titulo: "Tour Arraial do Cabo",
         precio: "Desde R$250 por persona",
-        descripcion: "Llamado el “Caribe Brasileño”, Arraial do Cabo es uno de los destinos más buscados de la costa de Río de Janeiro por sus aguas cristalinas y playas de arena blanca. Durante este tour en barco vas a recorrer algunos de los puntos más impresionantes de la región, con paradas para disfrutar del paisaje, nadar y conocer lugares icónicos como la Playa do Forno, la Isla del Faro, la Gruta Azul y el famoso Puente de Atalaia, además del característico perfil de mono en las formaciones rocosas. Es una experiencia completa en contacto directo con el mar, ideal para quienes quieren conocer playas únicas con aguas tranquilas y escenarios naturales inolvidables.",
+        descripcion: "Llamado el “Caribe Brasileño”, Arraial do Cabo es uno de los destinos más buscados de la costa de Río de Janeiro por sus aguas cristalinas y playas de arena blanca. Durante este tour en barco vas a recorrer algunos de los puntos más impresionantes de la región, con paradas para disfrutar del paisaje, nadar y conocer lugares icónicos como la Playa do Forno, la Isla del Faro, la Gruta Azul y la playa pontal de atalaia, además del característico perfil de mono en las formaciones rocosas. Es una experiencia completa en contacto directo con el mar, ideal para quienes quieren conocer playas únicas con aguas tranquilas y escenarios naturales inolvidables.",
         imagenes: [
             "./assets/img/barcos/arraial/arraial1.jpeg",
             "./assets/img/barcos/arraial/arraial2.jpeg",
@@ -99,8 +99,8 @@ const EXPERIENCES = [
         detalles: {
             duracion: "6 a 7 horas aprox.",
             ubicacion: "Búzios, Río de Janeiro",
-            incluye: "Transporte ida y vuelta, paseo en catamarán, guía bilingüe, almuerzo en ciudad",
-            noIncluye: "Bebidas y postre"
+            incluye: "Transporte. Ticket de barco. Buffet libre",
+            noIncluye: "Bebidas. Tasas maritimas"
         }
     },
     {
@@ -121,8 +121,8 @@ const EXPERIENCES = [
         detalles: {
             duracion: "6 a 7 horas aprox.",
             ubicacion: "Búzios, Río de Janeiro",
-            incluye: "Transporte ida y vuelta, paseo en barco, guía bilingüe, almuerzo en ciudad",
-            noIncluye: "Bebidas y postre"
+            incluye: "Transporte. Ticket de barco. Buffet libre",
+            noIncluye: "Bebidas. Tasas maritimas"
         }
     },
     {
