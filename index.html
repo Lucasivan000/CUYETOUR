@@ -1035,8 +1035,8 @@
                 )}`;
 
             /* ============================
-               GALERÍA
-            ============================ */
+   GALERÍA
+============================ */
             const gallery = document.getElementById("detail-gallery");
             gallery.innerHTML = "";
 
@@ -1099,17 +1099,39 @@
                         updateSlider();
                     });
 
+                    /* ============================
+                       SWIPE FIX iOS ESTABLE
+                    ============================ */
                     let startX = 0;
-                    track.addEventListener("touchstart", e => {
+                    let endX = 0;
+                    let isSwiping = false;
+
+                    gallery.addEventListener("touchstart", (e) => {
                         startX = e.touches[0].clientX;
+                        endX = startX;
+                        isSwiping = true;
                     }, { passive: true });
 
-                    track.addEventListener("touchend", e => {
-                        const diff = startX - e.changedTouches[0].clientX;
+                    gallery.addEventListener("touchmove", (e) => {
+                        if (!isSwiping) return;
+                        endX = e.touches[0].clientX;
+                    }, { passive: true });
+
+                    gallery.addEventListener("touchend", () => {
+                        if (!isSwiping) return;
+                        isSwiping = false;
+
+                        const diff = startX - endX;
+
                         if (Math.abs(diff) < 40) return;
 
-                        if (diff > 0 && index < experience.imagenes.length - 1) index++;
-                        if (diff < 0 && index > 0) index--;
+                        if (diff > 0 && index < experience.imagenes.length - 1) {
+                            index++;
+                        }
+
+                        if (diff < 0 && index > 0) {
+                            index--;
+                        }
 
                         updateSlider();
                     });

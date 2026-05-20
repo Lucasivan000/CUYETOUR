@@ -842,21 +842,21 @@ const EXPERIENCES = [
         categoria: "city-tours",
         titulo: {
             es: "Tour Corcovado y City Tour",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Tour Corcovado e City Tour",
+            en: "Corcovado and City Tour",
+            it: "Tour Corcovado e City Tour"
         },
         precio: {
             es: "Desde R$ 260",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "A partir de R$ 260",
+            en: "From R$ 260",
+            it: "Da R$ 260"
         },
         descripcion: {
             es: "Un tour ideal para conocer lo esencial de Río de Janeiro. Incluye la visita al Cristo Redentor, uno de los monumentos más famosos del mundo, y un recorrido panorámico por los principales puntos turísticos y culturales de la ciudad. Perfecto para quienes tienen poco tiempo y quieren una experiencia completa y bien organizada.",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Um passeio ideal para conhecer o essencial do Rio de Janeiro. Inclui visita ao Cristo Redentor, um dos monumentos mais famosos do mundo, e um tour panorâmico pelos principais pontos turísticos e culturais da cidade. Perfeito para quem tem pouco tempo e quer uma experiência completa e bem organizada.",
+            en: "An ideal tour to discover the essentials of Rio de Janeiro. Includes a visit to Christ the Redeemer, one of the most famous monuments in the world, and a panoramic tour through the city's main tourist and cultural attractions. Perfect for those with limited time who want a complete and well-organized experience.",
+            it: "Un tour ideale per conoscere l’essenziale di Rio de Janeiro. Include la visita al Cristo Redentore, uno dei monumenti più famosi del mondo, e un tour panoramico dei principali punti turistici e culturali della città. Perfetto per chi ha poco tempo e desidera un’esperienza completa e ben organizzata."
         },
         imagenes: [
             "/assets/img/tours/corcovado/corco1.png",
@@ -867,27 +867,27 @@ const EXPERIENCES = [
         detalles: {
             duracion: {
                 es: "Medio día",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Meio dia",
+                en: "Half day",
+                it: "Mezza giornata"
             },
             ubicacion: {
                 es: "Río de Janeiro",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Rio de Janeiro",
+                en: "Rio de Janeiro",
+                it: "Rio de Janeiro"
             },
             incluye: {
                 es: "Transporte ejecutivo climatizado, guía bilingüe, entrada al Cristo Redentor, city tour panorámico",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Transporte executivo climatizado, guia bilíngue, ingresso para o Cristo Redentor, city tour panorâmico",
+                en: "Air-conditioned executive transport, bilingual guide, Christ the Redeemer entrance ticket, panoramic city tour",
+                it: "Trasporto executive climatizzato, guida bilingue, ingresso al Cristo Redentore, city tour panoramico"
             },
             noIncluye: {
                 es: "Comidas, bebidas y gastos personales",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Refeições, bebidas e despesas pessoais",
+                en: "Meals, drinks, and personal expenses",
+                it: "Pasti, bevande e spese personali"
             }
         }
     },
@@ -896,21 +896,21 @@ const EXPERIENCES = [
         categoria: "city-tours",
         titulo: {
             es: "Tour Río de Aventura – Pan de Azúcar, AquaRio y BioParque",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Tour Rio de Aventura – Pão de Açúcar, AquaRio e BioParque",
+            en: "Rio Adventure Tour – Sugarloaf Mountain, AquaRio and BioParque",
+            it: "Tour Rio de Aventura – Pan di Zucchero, AquaRio e BioParque"
         },
         precio: {
             es: "Desde R$ 655",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "A partir de R$ 655",
+            en: "From R$ 655",
+            it: "Da R$ 655"
         },
         descripcion: {
             es: "Un día completo combinando paisajes, diversión y naturaleza. Este tour reúne tres grandes atracciones de Río: el Pan de Azúcar con su teleférico panorámico, el AquaRio y el BioParque, un zoológico moderno enfocado en la conservación. Ideal para familias y viajeros que buscan una experiencia variada y dinámica.",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Um dia completo combinando paisagens, diversão e natureza. Este passeio reúne três grandes atrações do Rio: o Pão de Açúcar com seu bondinho panorâmico, o AquaRio e o BioParque, um zoológico moderno focado na conservação. Ideal para famílias e viajantes que buscam uma experiência variada e dinâmica.",
+            en: "A full day combining landscapes, fun, and nature. This tour brings together three of Rio’s top attractions: Sugarloaf Mountain with its panoramic cable car, AquaRio, and BioParque, a modern zoo focused on conservation. Ideal for families and travelers looking for a varied and dynamic experience.",
+            it: "Una giornata completa che combina paesaggi, divertimento e natura. Questo tour riunisce tre grandi attrazioni di Rio: il Pan di Zucchero con la sua funivia panoramica, l’AquaRio e il BioParque, uno zoo moderno dedicato alla conservazione. Ideale per famiglie e viaggiatori che cercano un’esperienza varia e dinamica."
         },
         imagenes: [
             "/assets/img/tours/rioaventura/aven1.png",
@@ -921,27 +921,27 @@ const EXPERIENCES = [
         detalles: {
             duracion: {
                 es: "7 horas aprox.",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Aproximadamente 7 horas",
+                en: "Approximately 7 hours",
+                it: "Circa 7 ore"
             },
             ubicacion: {
                 es: "Río de Janeiro",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Rio de Janeiro",
+                en: "Rio de Janeiro",
+                it: "Rio de Janeiro"
             },
             incluye: {
                 es: "Transporte ida y vuelta, guía especializado, entradas a Pan de Azúcar, AquaRio y BioParque, almuerzo",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Transporte ida e volta, guia especializado, ingressos para o Pão de Açúcar, AquaRio e BioParque, almoço",
+                en: "Round-trip transportation, specialized guide, tickets to Sugarloaf Mountain, AquaRio and BioParque, lunch",
+                it: "Trasporto andata e ritorno, guida specializzata, ingressi al Pan di Zucchero, AquaRio e BioParque, pranzo"
             },
             noIncluye: {
                 es: "Bebidas, postres y servicios adicionales",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Bebidas, sobremesas e serviços adicionais",
+                en: "Drinks, desserts, and additional services",
+                it: "Bevande, dessert e servizi aggiuntivi"
             }
         }
     },
@@ -950,21 +950,21 @@ const EXPERIENCES = [
         categoria: "city-tours",
         titulo: {
             es: "Tour Estadio Maracanã",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Tour Estádio Maracanã",
+            en: "Maracanã Stadium Tour",
+            it: "Tour dello Stadio Maracanã"
         },
         precio: {
             es: "Desde R$ 250",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "A partir de R$ 250",
+            en: "From R$ 250",
+            it: "Da R$ 250"
         },
         descripcion: {
             es: "Una experiencia imperdible para los amantes del fútbol y la cultura brasileña. Conocé el mítico Estadio Maracanã, escenario de finales históricas y grandes momentos del deporte mundial. El tour recorre el exterior del estadio y su entorno, con explicaciones sobre su historia y relevancia cultural.",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Uma experiência imperdível para os amantes do futebol e da cultura brasileira. Conheça o mítico Estádio Maracanã, palco de finais históricas e grandes momentos do esporte mundial. O passeio percorre a parte externa do estádio e seus arredores, com explicações sobre sua história e relevância cultural.",
+            en: "An unmissable experience for football lovers and fans of Brazilian culture. Discover the legendary Maracanã Stadium, the stage of historic finals and unforgettable moments in world sports. The tour explores the exterior of the stadium and its surroundings, with explanations about its history and cultural importance.",
+            it: "Un’esperienza imperdibile per gli amanti del calcio e della cultura brasiliana. Scopri il mitico Stadio Maracanã, teatro di finali storiche e grandi momenti dello sport mondiale. Il tour percorre l’esterno dello stadio e i suoi dintorni, con spiegazioni sulla sua storia e rilevanza culturale."
         },
         imagenes: [
             "/assets/img/tours/maracana/mara2.png",
@@ -973,27 +973,27 @@ const EXPERIENCES = [
         detalles: {
             duracion: {
                 es: "Corta duración",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Curta duração",
+                en: "Short duration",
+                it: "Breve durata"
             },
             ubicacion: {
                 es: "Río de Janeiro",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Rio de Janeiro",
+                en: "Rio de Janeiro",
+                it: "Rio de Janeiro"
             },
             incluye: {
                 es: "Transporte ida y vuelta, guía bilingüe, visita externa al estadio",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Transporte ida e volta, guia bilíngue, visita externa ao estádio",
+                en: "Round-trip transportation, bilingual guide, external stadium visit",
+                it: "Trasporto andata e ritorno, guida bilingue, visita esterna allo stadio"
             },
             noIncluye: {
                 es: "Ingreso al interior del estadio, comidas y bebidas",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Entrada para o interior do estádio, refeições e bebidas",
+                en: "Access to the inside of the stadium, meals and drinks",
+                it: "Ingresso all’interno dello stadio, pasti e bevande"
             }
         }
     },
@@ -1002,21 +1002,21 @@ const EXPERIENCES = [
         categoria: "naturaleza-excursiones",
         titulo: {
             es: "Pedra do Telégrafo – Aventura y Vista Panorámica",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Pedra do Telégrafo – Aventura e Vista Panorâmica",
+            en: "Pedra do Telégrafo – Adventure and Panoramic View",
+            it: "Pedra do Telégrafo – Avventura e Vista Panoramica"
         },
         precio: {
             es: "Desde R$ 190",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "A partir de R$ 190",
+            en: "From R$ 190",
+            it: "Da R$ 190"
         },
         descripcion: {
             es: "Una de las excursiones más famosas de Río de Janeiro. La Pedra do Telégrafo ofrece una caminata en plena naturaleza y una vista panorámica impresionante del litoral carioca. Ideal para quienes buscan aventura, contacto con la naturaleza y fotos icónicas, todo en una experiencia guiada y segura.",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Uma das excursões mais famosas do Rio de Janeiro. A Pedra do Telégrafo oferece uma caminhada em meio à natureza e uma vista panorâmica impressionante do litoral carioca. Ideal para quem busca aventura, contato com a natureza e fotos icônicas, tudo em uma experiência guiada e segura.",
+            en: "One of the most famous excursions in Rio de Janeiro. Pedra do Telégrafo offers a hike surrounded by nature and an impressive panoramic view of Rio’s coastline. Ideal for those seeking adventure, contact with nature, and iconic photos, all in a safe and guided experience.",
+            it: "Una delle escursioni più famose di Rio de Janeiro. La Pedra do Telégrafo offre una camminata immersa nella natura e una vista panoramica mozzafiato della costa carioca. Ideale per chi cerca avventura, contatto con la natura e foto iconiche, tutto in un’esperienza guidata e sicura."
         },
         imagenes: [
             "/assets/img/naturaleza/telegrafo/tele1.png",
@@ -1028,27 +1028,27 @@ const EXPERIENCES = [
         detalles: {
             duracion: {
                 es: "6 a 7 horas aprox.",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Aproximadamente 6 a 7 horas",
+                en: "Approximately 6 to 7 hours",
+                it: "Circa 6-7 ore"
             },
             ubicacion: {
                 es: "Zona Oeste – Río de Janeiro",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Zona Oeste – Rio de Janeiro",
+                en: "West Zone – Rio de Janeiro",
+                it: "Zona Ovest – Rio de Janeiro"
             },
             incluye: {
                 es: "Transporte ida y vuelta, guía turístico especializado",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Transporte ida e volta, guia turístico especializado",
+                en: "Round-trip transportation, specialized tour guide",
+                it: "Trasporto andata e ritorno, guida turistica specializzata"
             },
             noIncluye: {
                 es: "Comidas, bebidas y gastos personales",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Refeições, bebidas e despesas pessoais",
+                en: "Meals, drinks, and personal expenses",
+                it: "Pasti, bevande e spese personali"
             }
         }
     },
@@ -1057,21 +1057,21 @@ const EXPERIENCES = [
         categoria: "naturaleza-excursiones",
         titulo: {
             es: "Trilha Morro Dois Irmãos – Vista Privilegiada de Río",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Trilha Morro Dois Irmãos – Vista Privilegiada do Rio",
+            en: "Morro Dois Irmãos Trail – Privileged View of Rio",
+            it: "Trilha Morro Dois Irmãos – Vista Privilegiata di Rio"
         },
         precio: {
             es: "Desde R$ 250",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "A partir de R$ 250",
+            en: "From R$ 250",
+            it: "Da R$ 250"
         },
         descripcion: {
             es: "Una de las caminatas más completas y espectaculares de Río de Janeiro. La trilha del Morro Dois Irmãos atraviesa áreas verdes y culmina con una de las vistas más impactantes de la ciudad, abarcando Leblon, Ipanema, Lagoa y São Conrado. Ideal para amantes del trekking y la naturaleza.",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Uma das trilhas mais completas e espetaculares do Rio de Janeiro. A trilha do Morro Dois Irmãos atravessa áreas verdes e termina com uma das vistas mais impressionantes da cidade, abrangendo Leblon, Ipanema, Lagoa e São Conrado. Ideal para amantes de trekking e natureza.",
+            en: "One of the most complete and spectacular hikes in Rio de Janeiro. The Morro Dois Irmãos trail crosses green areas and ends with one of the city’s most breathtaking views, overlooking Leblon, Ipanema, Lagoa, and São Conrado. Ideal for trekking and nature lovers.",
+            it: "Una delle escursioni più complete e spettacolari di Rio de Janeiro. Il sentiero del Morro Dois Irmãos attraversa aree verdi e termina con una delle viste più impressionanti della città, includendo Leblon, Ipanema, Lagoa e São Conrado. Ideale per gli amanti del trekking e della natura."
         },
         imagenes: [
             "/assets/img/naturaleza/doisirmaos/dos1.png",
@@ -1082,27 +1082,27 @@ const EXPERIENCES = [
         detalles: {
             duracion: {
                 es: "Medio día",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Meio dia",
+                en: "Half day",
+                it: "Mezza giornata"
             },
             ubicacion: {
                 es: "Zona Sur – Río de Janeiro",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Zona Sul – Rio de Janeiro",
+                en: "South Zone – Rio de Janeiro",
+                it: "Zona Sud – Rio de Janeiro"
             },
             incluye: {
                 es: "Guía especializado, acompañamiento durante la caminata",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Guia especializado, acompanhamento durante a trilha",
+                en: "Specialized guide, assistance during the hike",
+                it: "Guida specializzata, accompagnamento durante l’escursione"
             },
             noIncluye: {
                 es: "Transporte, comidas y bebidas",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Transporte, refeições e bebidas",
+                en: "Transportation, meals, and drinks",
+                it: "Trasporto, pasti e bevande"
             }
         }
     },
@@ -1111,21 +1111,21 @@ const EXPERIENCES = [
         categoria: "naturaleza-excursiones",
         titulo: {
             es: "Floresta da Tijuca en Jeep – Naturaleza y Cascadas",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Floresta da Tijuca de Jeep – Natureza e Cachoeiras",
+            en: "Tijuca Forest Jeep Tour – Nature and Waterfalls",
+            it: "Foresta da Tijuca in Jeep – Natura e Cascate"
         },
         precio: {
             es: "Desde R$ 250",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "A partir de R$ 250",
+            en: "From R$ 250",
+            it: "Da R$ 250"
         },
         descripcion: {
             es: "Explorá la mayor selva urbana del mundo en un recorrido cómodo y lleno de paisajes increíbles. El tour en jeep por la Floresta da Tijuca combina naturaleza, cascadas, miradores y aire puro, ideal para quienes desean conocer el lado más verde de Río sin realizar caminatas exigentes.",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Explore a maior floresta urbana do mundo em um passeio confortável e repleto de paisagens incríveis. O tour de jeep pela Floresta da Tijuca combina natureza, cachoeiras, mirantes e ar puro, ideal para quem deseja conhecer o lado mais verde do Rio sem fazer trilhas exigentes.",
+            en: "Explore the world’s largest urban forest on a comfortable tour filled with breathtaking landscapes. The jeep tour through Tijuca Forest combines nature, waterfalls, viewpoints, and fresh air, ideal for those who want to discover Rio’s greenest side without demanding hikes.",
+            it: "Esplora la più grande foresta urbana del mondo in un tour confortevole ricco di paesaggi incredibili. Il tour in jeep nella Foresta da Tijuca combina natura, cascate, punti panoramici e aria pura, ideale per chi desidera conoscere il lato più verde di Rio senza affrontare camminate impegnative."
         },
         imagenes: [
             "/assets/img/naturaleza/tiujca/yuca1.png",
@@ -1139,27 +1139,27 @@ const EXPERIENCES = [
         detalles: {
             duracion: {
                 es: "Medio día",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Meio dia",
+                en: "Half day",
+                it: "Mezza giornata"
             },
             ubicacion: {
                 es: "Parque Nacional da Tijuca – Río de Janeiro",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Parque Nacional da Tijuca – Rio de Janeiro",
+                en: "Tijuca National Park – Rio de Janeiro",
+                it: "Parco Nazionale da Tijuca – Rio de Janeiro"
             },
             incluye: {
                 es: "Transporte en jeep, guía especializado",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Transporte em jeep, guia especializado",
+                en: "Jeep transportation, specialized guide",
+                it: "Trasporto in jeep, guida specializzata"
             },
             noIncluye: {
                 es: "Comidas, bebidas y gastos personales",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Refeições, bebidas e despesas pessoais",
+                en: "Meals, drinks, and personal expenses",
+                it: "Pasti, bevande e spese personali"
             }
         }
     },
@@ -1168,21 +1168,21 @@ const EXPERIENCES = [
         categoria: "naturaleza-excursiones",
         titulo: {
             es: "Tour Petrópolis – Ciudad Imperial",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Tour Petrópolis – Cidade Imperial",
+            en: "Petrópolis Tour – Imperial City",
+            it: "Tour Petrópolis – Città Imperiale"
         },
         precio: {
             es: "Desde R$ 275",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "A partir de R$ 275",
+            en: "From R$ 275",
+            it: "Da R$ 275"
         },
         descripcion: {
             es: "Una excursión imperdible a la encantadora ciudad de Petrópolis, ubicada en la región serrana. Conocida como la Ciudad Imperial, combina historia, arquitectura europea y naturaleza. Un paseo ideal para salir de Río y descubrir un entorno más fresco, cultural y relajado.",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Uma excursão imperdível para a encantadora cidade de Petrópolis, localizada na região serrana. Conhecida como a Cidade Imperial, combina história, arquitetura europeia e natureza. Um passeio ideal para sair do Rio e descobrir um ambiente mais fresco, cultural e relaxante.",
+            en: "An unmissable excursion to the charming city of Petrópolis, located in the mountain region. Known as the Imperial City, it combines history, European architecture, and nature. An ideal trip to leave Rio behind and discover a fresher, cultural, and more relaxing environment.",
+            it: "Un’escursione imperdibile nella splendida città di Petrópolis, situata nella regione montuosa. Conosciuta come la Città Imperiale, unisce storia, architettura europea e natura. Un tour ideale per uscire da Rio e scoprire un ambiente più fresco, culturale e rilassante."
         },
         imagenes: [
             "/assets/img/naturaleza/petropolis/pet1.png",
@@ -1194,27 +1194,27 @@ const EXPERIENCES = [
         detalles: {
             duracion: {
                 es: "Día completo",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Dia completo",
+                en: "Full day",
+                it: "Giornata intera"
             },
             ubicacion: {
                 es: "Petrópolis – Región Serrana de Río de Janeiro",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Petrópolis – Região Serrana do Rio de Janeiro",
+                en: "Petrópolis – Mountain Region of Rio de Janeiro",
+                it: "Petrópolis – Regione Montuosa di Rio de Janeiro"
             },
             incluye: {
                 es: "Transporte ida y vuelta, guía bilingüe, entradas a museos y atracciones, almuerzo buffet",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Transporte ida e volta, guia bilíngue, ingressos para museus e atrações, almoço buffet",
+                en: "Round-trip transportation, bilingual guide, tickets to museums and attractions, buffet lunch",
+                it: "Trasporto andata e ritorno, guida bilingue, ingressi a musei e attrazioni, pranzo a buffet"
             },
             noIncluye: {
                 es: "Bebidas, postres y gastos personales",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Bebidas, sobremesas e despesas pessoais",
+                en: "Drinks, desserts, and personal expenses",
+                it: "Bevande, dessert e spese personali"
             }
         }
     },
@@ -1223,21 +1223,21 @@ const EXPERIENCES = [
         categoria: "experiencias-locales",
         titulo: {
             es: "Tour Favela Vidigal – Alto do Vidigal",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Tour Favela Vidigal – Alto do Vidigal",
+            en: "Vidigal Favela Tour – Alto do Vidigal",
+            it: "Tour Favela Vidigal – Alto do Vidigal"
         },
         precio: {
             es: "Desde R$ 199",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "A partir de R$ 199",
+            en: "From R$ 199",
+            it: "Da R$ 199"
         },
         descripcion: {
             es: "Viví una de las experiencias más auténticas de Río de Janeiro recorriendo la comunidad de Vidigal. Este tour combina cultura local, historia, mirantes espectaculares y la energía única del famoso Alto do Vidigal, ofreciendo una mirada real y respetuosa de la vida en la favela.",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Viva uma das experiências mais autênticas do Rio de Janeiro explorando a comunidade do Vidigal. Este passeio combina cultura local, história, mirantes espetaculares e a energia única do famoso Alto do Vidigal, oferecendo uma visão real e respeitosa da vida na favela.",
+            en: "Experience one of the most authentic sides of Rio de Janeiro by exploring the Vidigal community. This tour combines local culture, history, spectacular viewpoints, and the unique energy of the famous Alto do Vidigal, offering a real and respectful perspective on life in the favela.",
+            it: "Vivi una delle esperienze più autentiche di Rio de Janeiro visitando la comunità del Vidigal. Questo tour combina cultura locale, storia, punti panoramici spettacolari e l’energia unica del famoso Alto do Vidigal, offrendo uno sguardo reale e rispettoso sulla vita nella favela."
         },
         imagenes: [
             "/assets/img/experiencias/vidigal/vidi1.png",
@@ -1246,27 +1246,27 @@ const EXPERIENCES = [
         detalles: {
             duracion: {
                 es: "4 horas aprox.",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Aproximadamente 4 horas",
+                en: "Approximately 4 hours",
+                it: "Circa 4 ore"
             },
             ubicacion: {
                 es: "Vidigal – Zona Sur, Río de Janeiro",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Vidigal – Zona Sul, Rio de Janeiro",
+                en: "Vidigal – South Zone, Rio de Janeiro",
+                it: "Vidigal – Zona Sud, Rio de Janeiro"
             },
             incluye: {
                 es: "Transporte ida y vuelta, guía bilingüe, caminata guiada por la comunidad, paradas en mirantes",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Transporte ida e volta, guia bilíngue, caminhada guiada pela comunidade, paradas em mirantes",
+                en: "Round-trip transportation, bilingual guide, guided walk through the community, stops at viewpoints",
+                it: "Trasporto andata e ritorno, guida bilingue, passeggiata guidata nella comunità, soste nei punti panoramici"
             },
             noIncluye: {
                 es: "Comidas, bebidas y gastos personales",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Refeições, bebidas e despesas pessoais",
+                en: "Meals, drinks, and personal expenses",
+                it: "Pasti, bevande e spese personali"
             }
         }
     },
@@ -1275,21 +1275,21 @@ const EXPERIENCES = [
         categoria: "experiencias-locales",
         titulo: {
             es: "Tour Favela Rocinha – Experiencia Cultural",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Tour Favela Rocinha – Experiência Cultural",
+            en: "Rocinha Favela Tour – Cultural Experience",
+            it: "Tour Favela Rocinha – Esperienza Culturale"
         },
         precio: {
             es: "Desde R$ 199",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "A partir de R$ 199",
+            en: "From R$ 199",
+            it: "Da R$ 199"
         },
         descripcion: {
             es: "Conocé de cerca la mayor favela de Latinoamérica en un recorrido cultural y seguro. El tour por Rocinha incluye mirantes, murales de arte, espacios culturales y museos comunitarios, brindando una experiencia enriquecedora que muestra la historia, la identidad y la fuerza de la comunidad local.",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Conheça de perto a maior favela da América Latina em um passeio cultural e seguro. O tour pela Rocinha inclui mirantes, murais de arte, espaços culturais e museus comunitários, proporcionando uma experiência enriquecedora que mostra a história, a identidade e a força da comunidade local.",
+            en: "Get to know Latin America’s largest favela up close through a safe and cultural experience. The Rocinha tour includes viewpoints, art murals, cultural spaces, and community museums, offering an enriching experience that showcases the history, identity, and strength of the local community.",
+            it: "Scopri da vicino la più grande favela dell’America Latina attraverso un tour culturale e sicuro. Il tour della Rocinha include punti panoramici, murales artistici, spazi culturali e musei comunitari, offrendo un’esperienza arricchente che mostra la storia, l’identità e la forza della comunità locale."
         },
         imagenes: [
             "/assets/img/experiencias/rocina/roci1.png",
@@ -1302,27 +1302,27 @@ const EXPERIENCES = [
         detalles: {
             duracion: {
                 es: "Medio día",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Meio dia",
+                en: "Half day",
+                it: "Mezza giornata"
             },
             ubicacion: {
                 es: "Rocinha – Río de Janeiro",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Rocinha – Rio de Janeiro",
+                en: "Rocinha – Rio de Janeiro",
+                it: "Rocinha – Rio de Janeiro"
             },
             incluye: {
                 es: "Guía autorizado y especializado, recorrido guiado por la comunidad, paradas en mirantes",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Guia autorizado e especializado, passeio guiado pela comunidade, paradas em mirantes",
+                en: "Authorized and specialized guide, guided tour through the community, stops at viewpoints",
+                it: "Guida autorizzata e specializzata, tour guidato nella comunità, soste nei punti panoramici"
             },
             noIncluye: {
                 es: "Comidas, bebidas, transporte y servicios adicionales",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Refeições, bebidas, transporte e serviços adicionais",
+                en: "Meals, drinks, transportation, and additional services",
+                it: "Pasti, bevande, trasporto e servizi aggiuntivi"
             }
         }
     },
@@ -1331,21 +1331,21 @@ const EXPERIENCES = [
         categoria: "experiencias-locales",
         titulo: {
             es: "Tour Favela Santa Marta – Cultura y Mirantes",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Tour Favela Santa Marta – Cultura e Mirantes",
+            en: "Santa Marta Favela Tour – Culture and Viewpoints",
+            it: "Tour Favela Santa Marta – Cultura e Punti Panoramici"
         },
         precio: {
             es: "Desde R$ 195",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "A partir de R$ 195",
+            en: "From R$ 195",
+            it: "Da R$ 195"
         },
         descripcion: {
             es: "Descubrí la favela Santa Marta en un tour cultural lleno de historia, música y vistas increíbles. El recorrido incluye el famoso bondinho, mirantes panorámicos, proyectos sociales, arte urbano y la icónica Laje de Michael Jackson, ofreciendo una experiencia cercana y auténtica.",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Descubra a favela Santa Marta em um tour cultural cheio de história, música e vistas incríveis. O passeio inclui o famoso bondinho, mirantes panorâmicos, projetos sociais, arte urbana e a icônica Laje do Michael Jackson, oferecendo uma experiência próxima e autêntica.",
+            en: "Discover Santa Marta favela through a cultural tour full of history, music, and incredible views. The experience includes the famous cable tram, panoramic viewpoints, social projects, urban art, and the iconic Michael Jackson Terrace, offering an authentic and immersive experience.",
+            it: "Scopri la favela Santa Marta con un tour culturale ricco di storia, musica e panorami incredibili. Il percorso include il famoso trenino, punti panoramici, progetti sociali, arte urbana e l’iconica terrazza di Michael Jackson, offrendo un’esperienza autentica e coinvolgente."
         },
         imagenes: [
             "/assets/img/experiencias/donamarta/dona2.png",
@@ -1355,27 +1355,27 @@ const EXPERIENCES = [
         detalles: {
             duracion: {
                 es: "2 horas aprox.",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Aproximadamente 2 horas",
+                en: "Approximately 2 hours",
+                it: "Circa 2 ore"
             },
             ubicacion: {
                 es: "Santa Marta – Botafogo, Río de Janeiro",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Santa Marta – Botafogo, Rio de Janeiro",
+                en: "Santa Marta – Botafogo, Rio de Janeiro",
+                it: "Santa Marta – Botafogo, Rio de Janeiro"
             },
             incluye: {
                 es: "Guía local, recorrido guiado por la comunidad, acceso a mirantes y puntos culturales",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Guia local, passeio guiado pela comunidade, acesso a mirantes e pontos culturais",
+                en: "Local guide, guided tour through the community, access to viewpoints and cultural spots",
+                it: "Guida locale, tour guidato nella comunità, accesso ai punti panoramici e culturali"
             },
             noIncluye: {
                 es: "Transporte hasta el punto de encuentro, comidas y bebidas",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Transporte até o ponto de encontro, refeições e bebidas",
+                en: "Transportation to the meeting point, meals, and drinks",
+                it: "Trasporto fino al punto d’incontro, pasti e bevande"
             }
         }
     },
@@ -1384,21 +1384,21 @@ const EXPERIENCES = [
         categoria: "experiencias-locales",
         titulo: {
             es: "Stand Up Paddle al Amanecer – Copacabana",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Stand Up Paddle ao Amanhecer – Copacabana",
+            en: "Sunrise Stand Up Paddle – Copacabana",
+            it: "Stand Up Paddle all’Alba – Copacabana"
         },
         precio: {
             es: "Desde R$ 190",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "A partir de R$ 190",
+            en: "From R$ 190",
+            it: "Da R$ 190"
         },
         descripcion: {
             es: "Una experiencia única para comenzar el día en Río de Janeiro. Remá en stand up paddle mientras el sol sale sobre el mar de Copacabana, en una actividad guiada, segura y perfecta para todos los niveles, con fotos y videos incluidos para llevarte un recuerdo inolvidable.",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Uma experiência única para começar o dia no Rio de Janeiro. Reme de stand up paddle enquanto o sol nasce sobre o mar de Copacabana, em uma atividade guiada, segura e perfeita para todos os níveis, com fotos e vídeos incluídos para levar uma lembrança inesquecível.",
+            en: "A unique experience to start your day in Rio de Janeiro. Paddle on a stand up board while the sun rises over the sea of Copacabana in a guided, safe activity perfect for all skill levels, with photos and videos included to create unforgettable memories.",
+            it: "Un’esperienza unica per iniziare la giornata a Rio de Janeiro. Fai stand up paddle mentre il sole sorge sul mare di Copacabana, in un’attività guidata, sicura e perfetta per tutti i livelli, con foto e video inclusi per portare con te un ricordo indimenticabile."
         },
         imagenes: [
             "/assets/img/experiencias/standup/standup1.jpeg",
@@ -1414,27 +1414,27 @@ const EXPERIENCES = [
         detalles: {
             duracion: {
                 es: "2 horas aprox.",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Aproximadamente 2 horas",
+                en: "Approximately 2 hours",
+                it: "Circa 2 ore"
             },
             ubicacion: {
                 es: "Copacabana – Posto 6, Río de Janeiro",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Copacabana – Posto 6, Rio de Janeiro",
+                en: "Copacabana – Post 6, Rio de Janeiro",
+                it: "Copacabana – Posto 6, Rio de Janeiro"
             },
             incluye: {
                 es: "Tabla de stand up paddle, instrucción, guarda-volúmenes, chaleco salvavidas, fotos y videos",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Prancha de stand up paddle, instrução, guarda-volumes, colete salva-vidas, fotos e vídeos",
+                en: "Stand up paddle board, instruction, storage locker, life jacket, photos and videos",
+                it: "Tavola da stand up paddle, istruzioni, deposito bagagli, giubbotto salvagente, foto e video"
             },
             noIncluye: {
                 es: "Transporte, comidas y bebidas",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Transporte, refeições e bebidas",
+                en: "Transportation, meals, and drinks",
+                it: "Trasporto, pasti e bevande"
             }
         }
     },
@@ -1443,21 +1443,21 @@ const EXPERIENCES = [
         categoria: "experiencias-premium",
         titulo: {
             es: "Paseo en Helicóptero – Río de Janeiro",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Passeio de Helicóptero – Rio de Janeiro",
+            en: "Helicopter Tour – Rio de Janeiro",
+            it: "Tour in Elicottero – Rio de Janeiro"
         },
         precio: {
             es: "Desde R$ 2.000",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "A partir de R$ 2.000",
+            en: "From R$ 2,000",
+            it: "Da R$ 2.000"
         },
         descripcion: {
             es: "Un vuelo panorámico exclusivo sobre los paisajes más icónicos de Río de Janeiro. Durante 15 a 25 minutos disfrutarás de vistas privilegiadas de playas, montañas y monumentos emblemáticos, en una experiencia ideal para quienes buscan lujo, emoción y recuerdos inolvidables.",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Um voo panorâmico exclusivo sobre as paisagens mais icônicas do Rio de Janeiro. Durante 15 a 25 minutos, você desfrutará de vistas privilegiadas de praias, montanhas e monumentos emblemáticos, em uma experiência ideal para quem busca luxo, emoção e lembranças inesquecíveis.",
+            en: "An exclusive panoramic flight over Rio de Janeiro’s most iconic landscapes. During 15 to 25 minutes, you will enjoy privileged views of beaches, mountains, and famous landmarks in an experience designed for those seeking luxury, excitement, and unforgettable memories.",
+            it: "Un volo panoramico esclusivo sopra i paesaggi più iconici di Rio de Janeiro. Per 15-25 minuti potrai ammirare viste privilegiate di spiagge, montagne e monumenti simbolici, in un’esperienza ideale per chi cerca lusso, emozione e ricordi indimenticabili."
         },
         imagenes: [
             "/assets/img/experienciaspremium/tourhelicoptero/heli1.png",
@@ -1469,27 +1469,27 @@ const EXPERIENCES = [
         detalles: {
             duracion: {
                 es: "15 a 25 minutos",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "15 a 25 minutos",
+                en: "15 to 25 minutes",
+                it: "Da 15 a 25 minuti"
             },
             ubicacion: {
                 es: "Río de Janeiro",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Rio de Janeiro",
+                en: "Rio de Janeiro",
+                it: "Rio de Janeiro"
             },
             incluye: {
                 es: "Vuelo panorámico en helicóptero, piloto profesional certificado, briefing de seguridad",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Voo panorâmico de helicóptero, piloto profissional certificado, briefing de segurança",
+                en: "Panoramic helicopter flight, certified professional pilot, safety briefing",
+                it: "Volo panoramico in elicottero, pilota professionista certificato, briefing sulla sicurezza"
             },
             noIncluye: {
                 es: "Traslado al helipuerto, fotos o videos profesionales, gastos personales",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Transporte até o heliponto, fotos ou vídeos profissionais, despesas pessoais",
+                en: "Transfer to the helipad, professional photos or videos, personal expenses",
+                it: "Trasferimento all’eliporto, foto o video professionali, spese personali"
             }
         }
     },
@@ -1498,21 +1498,21 @@ const EXPERIENCES = [
         categoria: "experiencias-premium",
         titulo: {
             es: "Tour en Helicóptero sin Puertas – Río de Janeiro",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Tour de Helicóptero sem Portas – Rio de Janeiro",
+            en: "Doors-Off Helicopter Tour – Rio de Janeiro",
+            it: "Tour in Elicottero Senza Porte – Rio de Janeiro"
         },
         precio: {
             es: "Desde R$ 2.950",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "A partir de R$ 2.950",
+            en: "From R$ 2,950",
+            it: "Da R$ 2.950"
         },
         descripcion: {
             es: "Una experiencia aérea extrema y sofisticada. Volá sin puertas durante 30 minutos sobre más de 20 puntos icónicos de Río de Janeiro, con vistas totalmente abiertas y una sensación de libertad absoluta.",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Uma experiência aérea extrema e sofisticada. Voe sem portas durante 30 minutos sobre mais de 20 pontos icônicos do Rio de Janeiro, com vistas totalmente abertas e uma sensação de liberdade absoluta.",
+            en: "An extreme and sophisticated aerial experience. Fly doors-off for 30 minutes over more than 20 iconic landmarks in Rio de Janeiro, with completely open views and a true feeling of absolute freedom.",
+            it: "Un’esperienza aerea estrema e sofisticata. Sorvola senza porte per 30 minuti più di 20 punti iconici di Rio de Janeiro, con viste completamente aperte e una sensazione di libertà assoluta."
         },
         imagenes: [
             "/assets/img/experienciaspremium/helisin/helisin2.png",
@@ -1523,27 +1523,27 @@ const EXPERIENCES = [
         detalles: {
             duracion: {
                 es: "30 minutos",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "30 minutos",
+                en: "30 minutes",
+                it: "30 minuti"
             },
             ubicacion: {
                 es: "Río de Janeiro",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Rio de Janeiro",
+                en: "Rio de Janeiro",
+                it: "Rio de Janeiro"
             },
             incluye: {
                 es: "Vuelo sin puertas, piloto profesional certificado, equipamiento de seguridad",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Voo sem portas, piloto profissional certificado, equipamentos de segurança",
+                en: "Doors-off flight, certified professional pilot, safety equipment",
+                it: "Volo senza porte, pilota professionista certificato, equipaggiamento di sicurezza"
             },
             noIncluye: {
                 es: "Traslados, fotos y videos profesionales, gastos personales",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Traslados, fotos e vídeos profissionais, despesas pessoais",
+                en: "Transfers, professional photos and videos, personal expenses",
+                it: "Trasferimenti, foto e video professionali, spese personali"
             }
         }
     },
@@ -1552,21 +1552,21 @@ const EXPERIENCES = [
         categoria: "experiencias-premium",
         titulo: {
             es: "Vuelo en Ala Delta – Pedra Bonita",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Voo de Asa Delta – Pedra Bonita",
+            en: "Hang Gliding Flight – Pedra Bonita",
+            it: "Volo in Deltaplano – Pedra Bonita"
         },
         precio: {
             es: "Desde R$ 1.300",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "A partir de R$ 1.300",
+            en: "From R$ 1,300",
+            it: "Da R$ 1.300"
         },
         descripcion: {
             es: "Viví la emoción de volar en ala delta desde Pedra Bonita acompañado por un instructor certificado. Disfrutá de vistas increíbles de montañas, selva y mar en una experiencia segura, intensa e inolvidable.",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Viva a emoção de voar de asa delta saindo da Pedra Bonita acompanhado por um instrutor certificado. Desfrute de vistas incríveis de montanhas, floresta e mar em uma experiência segura, intensa e inesquecível.",
+            en: "Experience the thrill of hang gliding from Pedra Bonita accompanied by a certified instructor. Enjoy breathtaking views of mountains, forest, and ocean in a safe, intense, and unforgettable adventure.",
+            it: "Vivi l’emozione di volare in deltaplano da Pedra Bonita accompagnato da un istruttore certificato. Goditi viste incredibili su montagne, foresta e mare in un’esperienza sicura, intensa e indimenticabile."
         },
         imagenes: [
             "/assets/img/experienciaspremium/aladelta/ala1.png",
@@ -1577,27 +1577,27 @@ const EXPERIENCES = [
         detalles: {
             duracion: {
                 es: "15 a 20 minutos",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "15 a 20 minutos",
+                en: "15 to 20 minutes",
+                it: "Da 15 a 20 minuti"
             },
             ubicacion: {
                 es: "Pedra Bonita – São Conrado",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Pedra Bonita – São Conrado",
+                en: "Pedra Bonita – São Conrado",
+                it: "Pedra Bonita – São Conrado"
             },
             incluye: {
                 es: "Vuelo con instructor certificado, equipo completo, instrucción previa, transporte hasta la rampa",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Voo com instrutor certificado, equipamento completo, instrução prévia, transporte até a rampa",
+                en: "Flight with certified instructor, full equipment, prior instruction, transportation to the launch ramp",
+                it: "Volo con istruttore certificato, attrezzatura completa, istruzioni preliminari, trasporto fino alla rampa"
             },
             noIncluye: {
                 es: "Fotos y videos profesionales, gastos personales",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Fotos e vídeos profissionais, despesas pessoais",
+                en: "Professional photos and videos, personal expenses",
+                it: "Foto e video professionali, spese personali"
             }
         }
     },
@@ -1606,21 +1606,21 @@ const EXPERIENCES = [
         categoria: "experiencias-premium",
         titulo: {
             es: "Parapente – Niterói",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Parapente – Niterói",
+            en: "Paragliding – Niterói",
+            it: "Parapendio – Niterói"
         },
         precio: {
             es: "Desde R$ 900",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "A partir de R$ 900",
+            en: "From R$ 900",
+            it: "Da R$ 900"
         },
         descripcion: {
             es: "Disfrutá la sensación de volar en parapente sobre los paisajes naturales de Niterói. Una experiencia que combina adrenalina, tranquilidad y vistas increíbles del océano, ideal para quienes buscan algo diferente.",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Desfrute da sensação de voar de parapente sobre as paisagens naturais de Niterói. Uma experiência que combina adrenalina, tranquilidade e vistas incríveis do oceano, ideal para quem busca algo diferente.",
+            en: "Enjoy the sensation of paragliding over the natural landscapes of Niterói. An experience that combines adrenaline, tranquility, and breathtaking ocean views, perfect for those looking for something different.",
+            it: "Goditi la sensazione di volare in parapendio sopra i paesaggi naturali di Niterói. Un’esperienza che combina adrenalina, tranquillità e viste incredibili sull’oceano, ideale per chi cerca qualcosa di diverso."
         },
         imagenes: [
             "/assets/img/experienciaspremium/parapente/para1.png",
@@ -1629,27 +1629,27 @@ const EXPERIENCES = [
         detalles: {
             duracion: {
                 es: "7 a 12 minutos (aprox.)",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "7 a 12 minutos (aprox.)",
+                en: "7 to 12 minutes (approx.)",
+                it: "Da 7 a 12 minuti (circa)"
             },
             ubicacion: {
                 es: "Parque da Cidade – Niterói",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Parque da Cidade – Niterói",
+                en: "Parque da Cidade – Niterói",
+                it: "Parque da Cidade – Niterói"
             },
             incluye: {
                 es: "Vuelo con instructor certificado, fotos y videos incluidos, equipo completo",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Voo com instrutor certificado, fotos e vídeos incluídos, equipamento completo",
+                en: "Flight with certified instructor, photos and videos included, full equipment",
+                it: "Volo con istruttore certificato, foto e video inclusi, attrezzatura completa"
             },
             noIncluye: {
                 es: "Traslados, gastos personales",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Traslados, despesas pessoais",
+                en: "Transfers, personal expenses",
+                it: "Trasferimenti, spese personali"
             }
         }
     },
@@ -1658,21 +1658,21 @@ const EXPERIENCES = [
         categoria: "experiencias-premium",
         titulo: {
             es: "Tour en Buggy – Búzios",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Passeio de Buggy – Búzios",
+            en: "Buggy Tour – Búzios",
+            it: "Tour in Buggy – Búzios"
         },
         precio: {
             es: "Desde R$ 130",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "A partir de R$ 130",
+            en: "From R$ 130",
+            it: "Da R$ 130"
         },
         descripcion: {
             es: "Recorré Búzios en un divertido tour en buggy visitando playas paradisíacas, mirantes naturales y puntos ideales para fotos. Una forma relajada y emocionante de conocer uno de los destinos más encantadores de Brasil.",
-            pt: "version pt",
-            en: "version en",
-            it: "version it"
+            pt: "Explore Búzios em um divertido passeio de buggy visitando praias paradisíacas, mirantes naturais e pontos ideais para fotos. Uma forma relaxante e emocionante de conhecer um dos destinos mais encantadores do Brasil.",
+            en: "Explore Búzios on a fun buggy tour visiting paradise beaches, natural viewpoints, and perfect photo spots. A relaxing and exciting way to discover one of Brazil’s most charming destinations.",
+            it: "Esplora Búzios con un divertente tour in buggy visitando spiagge paradisiache, punti panoramici naturali e luoghi perfetti per le foto. Un modo rilassante ed emozionante per conoscere una delle destinazioni più affascinanti del Brasile."
         },
         imagenes: [
             "/assets/img/experienciaspremium/buggy/buggy1.png"
@@ -1680,27 +1680,27 @@ const EXPERIENCES = [
         detalles: {
             duracion: {
                 es: "1 hora y 20 minutos",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "1 hora e 20 minutos",
+                en: "1 hour and 20 minutes",
+                it: "1 ora e 20 minuti"
             },
             ubicacion: {
                 es: "Búzios – Río de Janeiro",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Búzios – Rio de Janeiro",
+                en: "Búzios – Rio de Janeiro",
+                it: "Búzios – Rio de Janeiro"
             },
             incluye: {
                 es: "Paseo en buggy, conductor/guía, paradas para fotos",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Passeio de buggy, motorista/guia, paradas para fotos",
+                en: "Buggy ride, driver/guide, photo stops",
+                it: "Tour in buggy, autista/guida, soste per foto"
             },
             noIncluye: {
                 es: "Comidas, bebidas, gastos personales",
-                pt: "version pt",
-                en: "version en",
-                it: "version it"
+                pt: "Refeições, bebidas, despesas pessoais",
+                en: "Meals, drinks, personal expenses",
+                it: "Pasti, bevande, spese personali"
             }
         }
     }
