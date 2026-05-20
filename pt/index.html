@@ -29,28 +29,28 @@
                 </div>
 
             </a>
-            <!-- Language Switcher -->
             <div class="navbar__lang">
-                <a href="../index.html" class="navbar__lang-item active" aria-label="Español">
+                <a href="../index.html" class="navbar__lang-item active">
                     <img src="../assets/img/flags/es.png" alt="Español" class="navbar__lang-flag">
-                    <span>ES</span>
+                    ES
                 </a>
 
-                <a href="/pt/" class="navbar__lang-item" aria-label="Português">
+                <a href="../pt/index.html" class="navbar__lang-item">
                     <img src="../assets/img/flags/pt.png" alt="Português" class="navbar__lang-flag">
-                    <span>PT</span>
+                    PT
                 </a>
 
-                <a href="/en/" class="navbar__lang-item" aria-label="English">
+                <a href="/en/" class="navbar__lang-item">
                     <img src="../assets/img/flags/en.png" alt="English" class="navbar__lang-flag">
-                    <span>EN</span>
+                    EN
                 </a>
 
-                <a href="/it/" class="navbar__lang-item" aria-label="Italiano">
+                <a href="/it/" class="navbar__lang-item">
                     <img src="../assets/img/flags/it.png" alt="Italiano" class="navbar__lang-flag">
-                    <span>IT</span>
+                    IT
                 </a>
             </div>
+
 
 
             <!-- Navigation links -->
@@ -74,6 +74,35 @@
 
         </div>
     </header>
+    <div class="lang-mobile-bar">
+        <button class="lang-mobile-toggle" id="langMobileToggle">
+            🌐 Idioma
+        </button>
+
+        <div class="lang-mobile-menu" id="langMobileMenu">
+
+            <a href="./index.html" class="lang-mobile-item">
+                <img src="../assets/img/flags/es.png" alt="Español">
+                Español
+            </a>
+
+            <a href="./pt/index.html" class="lang-mobile-item">
+                <img src="../assets/img/flags/pt.png" alt="Português">
+                Português
+            </a>
+
+            <a href="/en/" class="lang-mobile-item">
+                <img src="../assets/img/flags/en.png" alt="English">
+                English
+            </a>
+
+            <a href="/it/" class="lang-mobile-item">
+                <img src="../assets/img/flags/it.png" alt="Italiano">
+                Italiano
+            </a>
+
+        </div>
+    </div>
     <main>
         <section class="hero">
             <div class="hero__container">
@@ -917,6 +946,14 @@
         </footer>
     </main>
     <script>
+        const langMobileToggle = document.getElementById("langMobileToggle");
+        const langMobileMenu = document.getElementById("langMobileMenu");
+
+        langMobileToggle.addEventListener("click", () => {
+            langMobileMenu.classList.toggle("active");
+        });
+    </script>
+    <script>
         const LANG = "pt";
     </script>
     <script src="../data/experiencies.js"></script>
@@ -1034,8 +1071,8 @@
                 )}`;
 
             /* ============================
-               GALERÍA
-            ============================ */
+   GALERÍA
+============================ */
             const gallery = document.getElementById("detail-gallery");
             gallery.innerHTML = "";
 
@@ -1098,17 +1135,39 @@
                         updateSlider();
                     });
 
+                    /* ============================
+                       SWIPE FIX iOS ESTABLE
+                    ============================ */
                     let startX = 0;
-                    track.addEventListener("touchstart", e => {
+                    let endX = 0;
+                    let isSwiping = false;
+
+                    gallery.addEventListener("touchstart", (e) => {
                         startX = e.touches[0].clientX;
+                        endX = startX;
+                        isSwiping = true;
                     }, { passive: true });
 
-                    track.addEventListener("touchend", e => {
-                        const diff = startX - e.changedTouches[0].clientX;
+                    gallery.addEventListener("touchmove", (e) => {
+                        if (!isSwiping) return;
+                        endX = e.touches[0].clientX;
+                    }, { passive: true });
+
+                    gallery.addEventListener("touchend", () => {
+                        if (!isSwiping) return;
+                        isSwiping = false;
+
+                        const diff = startX - endX;
+
                         if (Math.abs(diff) < 40) return;
 
-                        if (diff > 0 && index < experience.imagenes.length - 1) index++;
-                        if (diff < 0 && index > 0) index--;
+                        if (diff > 0 && index < experience.imagenes.length - 1) {
+                            index++;
+                        }
+
+                        if (diff < 0 && index > 0) {
+                            index--;
+                        }
 
                         updateSlider();
                     });

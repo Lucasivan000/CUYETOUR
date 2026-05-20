@@ -29,32 +29,34 @@
                 </div>
 
             </a>
-            <!-- Language Switcher -->
             <div class="navbar__lang">
-                <a href="./index.html" class="navbar__lang-item active" aria-label="Español">
+                <a href="./index.html" class="navbar__lang-item active">
                     <img src="./assets/img/flags/es.png" alt="Español" class="navbar__lang-flag">
-                    <span>ES</span>
+                    ES
                 </a>
 
-                <a href="./pt/index.html" class="navbar__lang-item" aria-label="Português">
+                <a href="./pt/index.html" class="navbar__lang-item">
                     <img src="./assets/img/flags/pt.png" alt="Português" class="navbar__lang-flag">
-                    <span>PT</span>
+                    PT
                 </a>
 
-                <a href="/en/" class="navbar__lang-item" aria-label="English">
+                <a href="/en/" class="navbar__lang-item">
                     <img src="./assets/img/flags/en.png" alt="English" class="navbar__lang-flag">
-                    <span>EN</span>
+                    EN
                 </a>
 
-                <a href="/it/" class="navbar__lang-item" aria-label="Italiano">
+                <a href="/it/" class="navbar__lang-item">
                     <img src="./assets/img/flags/it.png" alt="Italiano" class="navbar__lang-flag">
-                    <span>IT</span>
+                    IT
                 </a>
             </div>
 
 
+
             <!-- Navigation links -->
             <nav class="navbar__nav" id="navbarNav">
+                <!-- Language Switcher -->
+
                 <a href="#experiencias" class="navbar__link">Experiencias</a>
                 <a href="#contacto" class="navbar__link">Asesoria</a>
 
@@ -74,6 +76,35 @@
 
         </div>
     </header>
+    <div class="lang-mobile-bar">
+        <button class="lang-mobile-toggle" id="langMobileToggle">
+            🌐 Idioma
+        </button>
+
+        <div class="lang-mobile-menu" id="langMobileMenu">
+
+            <a href="./index.html" class="lang-mobile-item">
+                <img src="./assets/img/flags/es.png" alt="Español">
+                Español
+            </a>
+
+            <a href="../pt/index.html" class="lang-mobile-item">
+                <img src="./assets/img/flags/pt.png" alt="Português">
+                Português
+            </a>
+
+            <a href="/en/" class="lang-mobile-item">
+                <img src="./assets/img/flags/en.png" alt="English">
+                English
+            </a>
+
+            <a href="/it/" class="lang-mobile-item">
+                <img src="./assets/img/flags/it.png" alt="Italiano">
+                Italiano
+            </a>
+
+        </div>
+    </div>
     <main>
         <section class="hero">
             <div class="hero__container">
@@ -919,6 +950,14 @@
 
         </footer>
     </main>
+    <script>
+        const langMobileToggle = document.getElementById("langMobileToggle");
+        const langMobileMenu = document.getElementById("langMobileMenu");
+
+        langMobileToggle.addEventListener("click", () => {
+            langMobileMenu.classList.toggle("active");
+        });
+    </script>
 
     <script>
         const navbarToggle = document.getElementById("navbarToggle");
