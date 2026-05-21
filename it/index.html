@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="navbar__container">
+
+            <!-- Logo / Brand -->
+            <a href="/" class="navbar__brand">
+
+                <img src="../assets/img/logo.png" alt="TourGold logo" class="navbar__logo">
+
+                <div class="navbar__brand-text">
+                    <span class="navbar__title">
+                        Cuye<span class="navbar__highlight">Tour</span>
+                    </span>
+
+                    <span class="navbar__tagline">
+                        Turismo a Rio de Janeiro 🇧🇷
+                    </span>
+                </div>
+
+            </a>
+            <div class="navbar__lang">
+                <a href="../index.html" class="navbar__lang-item active">
+                    <img src="../assets/img/flags/es.png" alt="Español" class="navbar__lang-flag">
+                    ES
+                </a>
+
+                <a href="../pt/index.html" class="navbar__lang-item">
+                    <img src="../assets/img/flags/pt.png" alt="Português" class="navbar__lang-flag">
+                    PT
+                </a>
+
+                <a href="/en/" class="navbar__lang-item">
+                    <img src="../assets/img/flags/en.png" alt="English" class="navbar__lang-flag">
+                    EN
+                </a>
+
+                <a href="/it/" class="navbar__lang-item">
+                    <img src="../assets/img/flags/it.png" alt="Italiano" class="navbar__lang-flag">
+                    IT
+                </a>
+            </div>
+
+
+
+            <!-- Navigation links -->
+            <nav class="navbar__nav" id="navbarNav">
+                <a href="#experiencias" class="navbar__link">Esperienze</a>
+                <a href="#contacto" class="navbar__link">Consulenza</a>
+
+                <!-- CTA Desktop -->
+                <a href="https://wa.me/559184251859" class="navbar__cta" target="_blank" rel="noopener">
+                    WhatsApp
+                </a>
+            </nav>
+
+
+            <!-- Hamburger -->
+            <button class="navbar__toggle" id="navbarToggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+    </header>
+    <div class="lang-mobile-bar">
+        <button class="lang-mobile-toggle" id="langMobileToggle">
+            🌐 Idioma
+        </button>
+
+        <div class="lang-mobile-menu" id="langMobileMenu">
+
+            <a href="./index.html" class="lang-mobile-item">
+                <img src="../assets/img/flags/es.png" alt="Español">
+                Spagnolo
+            </a>
+
+            <a href="./pt/index.html" class="lang-mobile-item">
+                <img src="../assets/img/flags/pt.png" alt="Português">
+                Portoghese
+            </a>
+
+            <a href="/en/" class="lang-mobile-item">
+                <img src="../assets/img/flags/en.png" alt="English">
+                Inglese
+            </a>
+
+            <a href="/it/" class="lang-mobile-item">
+                <img src="../assets/img/flags/it.png" alt="Italiano">
+                Italiano
+            </a>
+
+        </div>
+    </div>
+    <main>
+        <section class="hero">
+            <div class="hero__container">
+
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        Scopri le migliori escursioni a Rio
+                    </h1>
+
+                    <p class="hero__subtitle">
+                        Prenota in modo semplice, veloce e senza complicazioni.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+        <section class="experience-selector" aria-label="Selector de experiencias" id="experiencias">
+            <div class="experience-selector__container">
+
+                <h2 class="experience-selector__title">
+                    Scegli la tua prossima esperienza a Rio
+                </h2>
+                <p class="experience-selector__hint">
+                    Scorri per vedere altre esperienze →
+                </p>
+
+                <div class="experience-chips" role="tablist">
+
+                    <button class="experience-chip is-active" data-category="all">
+                        Tutte
+                    </button>
+
+                    <button class="experience-chip" data-category="barcos" role="tab" aria-selected="false">
+                        <span class="experience-chip__label">Nautica / Mare & Crociere</span>
+                    </button>
+
+                    <button class="experience-chip" data-category="city-tours" role="tab" aria-selected="false">
+                        <span class="experience-chip__label">City Tour</span>
+                    </button>
+
+                    <button class="experience-chip" data-category="naturaleza-excursiones" role="tab"
+                        aria-selected="false">
+                        <span class="experience-chip__label">Natura & Escursioni</span>
+                    </button>
+
+                    <button class="experience-chip" data-category="experiencias-locales" role="tab"
+                        aria-selected="false">
+                        <span class="experience-chip__label">Esperienze Locali</span>
+                    </button>
+
+                    <button class="experience-chip" data-category="experiencias-premium" role="tab"
+                        aria-selected="false">
+                        <span class="experience-chip__label">Esperienze Premium</span>
+                    </button>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="experiences" id="experiences-list">
+            <div class="experiences__container">
+
+                <div class="experiences__grid">
+
+                    <!-- CARD -->
+                    <article class="experience-card" data-id="arraial" data-category="barcos" tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/barcos/arraial/arraial2.jpeg" alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Tour Arraial do Cabo
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Conosciuto come il “Caribe brasiliano”, con alcune delle spiagge più incontaminate dello
+                                Stato di Rio de Janeiro
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 250
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="angradosreis" data-category="barcos" tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/barcos/angra/angra1.png" alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Tour Angra dos Reis e Ilha Grande
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Scopri isole paradisiache e acque cristalline, con soste per il bagno ad Angra dos Reis.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 250
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="angraexperiencias" data-category="barcos" tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/barcos/angraexp/angraexp3.png" alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Angra dos Reis – Esperienza tra le isole
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Tour in barca tra le isole di Angra dos Reis, con tempo libero per nuotare, rilassarsi e
+                                godersi il paesaggio naturale.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 250
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="buzios-clasico" data-category="barcos" tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/barcos/buzios/buzios1.png" alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Tour Búzios
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Tour in barca lungo le spiagge più famose di Búzios, con soste per il bagno in acque
+                                cristalline.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 275
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="buzios-catamaran" data-category="barcos" tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/barcos/buzioscatamaran/buzioscat2.png"
+                                alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Búzios in Catamarano
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Navigazione in catamarano a Búzios, con atmosfera rilassata, musica e soste per godersi
+                                il mare.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 299
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="buzios-premium" data-category="barcos" tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/barcos/buziospremium/premium1.png"
+                                alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Búzios Premium
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Un’esperienza più esclusiva a Búzios, con navigazione confortevole e soste sulle spiagge
+                                più iconiche.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 275
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="lancha-malika-40" data-category="barcos" tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/barcos/malika/malika1.png" alt="Motoscafo Malika – 40 piedi">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Motoscafo Malika – 40 piedi
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Esperienza nautica di lusso per gruppi numerosi, ideale per eventi, celebrazioni e
+                                uscite private all’insegna del massimo comfort ed esclusività.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 15.000
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="lancha-conquista" data-category="barcos" tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/barcos/conquista/conquista1.png"
+                                alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Motoscafo Conquista | Divertimento e comfort per gruppi
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Motoscafo moderno e spazioso, perfetto per uscite di gruppo, feste ed escursioni in
+                                famiglia, con comfort e divertimento garantiti.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 4.000
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="lancha-emir-al-bahr" data-category="barcos" tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/barcos/emir/emir1.png" alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Motoscafo Emir Al Bahr | Escursione privata con barbecue
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Escursione privata con barbecue a bordo, ideale per condividere un’esperienza completa
+                                in mare con amici o famiglia.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 5.500
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="lancha-compartida-cabo-frio" data-category="barcos"
+                        tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/barcos/cabofrio/cabo1.png" alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Motoscafo condiviso a Cabo Frio | Open Bar & Day Use
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Escursione condivisa con open bar, open food e day use inclusi, per scoprire i
+                                panorami più belli di Cabo Frio.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 350
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="lancha-magnata" data-category="barcos" tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/barcos/magnata/magnata1.png" alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Motoscafo Magnata – 44 piedi | Esperienza di alto livello
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Imbarcazione premium di alto livello, pensata per gruppi ristretti che cercano comfort,
+                                privacy e raffinatezza.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 11.000
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="lancha-picadilly" data-category="barcos" tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/barcos/picadilly/pica1.png" alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Motoscafo Picadilly | Comfort e intrattenimento a bordo
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Escursione confortevole e divertente, con spazi interni, ideale per trascorrere diverse
+                                ore di navigazione in gruppo.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 4.500
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="jet-ski" data-category="barcos" tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/barcos/jetsky/jet1.png" alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Escursione in Jet Ski | Avventura e adrenalina
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Avventura e adrenalina in mare con guida professionale, ideale per chi cerca azione e
+                                divertimento.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 500
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="acuario-boulevard" data-category="city-tours"
+                        tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/tours/acuario/acua1.png" alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                AquaRio + Boulevard Olímpico
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Scopri il più grande acquario marino del Sud America e passeggia lungo il moderno
+                                Boulevard Olímpico.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 250
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="1-dia-en-rio" data-category="city-tours" tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/tours/diario/dia1.png" alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Tour completo – 1 giorno a Rio de Janeiro
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Vivi il meglio di Rio in un solo giorno: Cristo Redentor, Pan di Zucchero e city tour
+                                completo.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 490
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="corcovado-city" data-category="city-tours" tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/tours/corcovado/corco1.png" alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Corcovado e City Tour
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Visita il Cristo Redentor e scopri i principali punti turistici della città.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 260
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="rio-aventura" data-category="city-tours" tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/tours/rioaventura/aven1.png" alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Tour Rio Avventura
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Una giornata ricca di esperienze: Pan di Zucchero, AquaRio e BioParque in un unico tour.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 655
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="maracana" data-category="city-tours" tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/tours/maracana/mara2.png" alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Tour dello Stadio Maracanã
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Scopri lo stadio più famoso del Brasile e la sua storia leggendaria.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 250
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="pedra-do-telegrafo" data-category="naturaleza-excursiones"
+                        tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/naturaleza/telegrafo/tele2.png"
+                                alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Pedra do Telégrafo
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Escursione guidata con panorami mozzafiato e la foto più famosa di Rio de Janeiro.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 190
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="morro-dois-irmaos" data-category="naturaleza-excursiones"
+                        tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/naturaleza/doisirmaos/dos1.png"
+                                alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Escursione al Morro Dois Irmãos
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Una delle escursioni più complete e spettacolari di Rio de Janeiro.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 250
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="floresta-tijuca-jeep"
+                        data-category="naturaleza-excursiones" tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/naturaleza/tiujca/yuca1.png" alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Foresta di Tijuca in jeep
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Escursione in jeep nella più grande foresta urbana del mondo, tra cascate e punti
+                                panoramici.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 250
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="petropolis" data-category="naturaleza-excursiones"
+                        tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/naturaleza/petropolis/pet1.png"
+                                alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Tour Petrópolis – Città Imperiale
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Escursione di un’intera giornata nella città di montagna che unisce storia e natura.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 275
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="favela-vidigal" data-category="experiencias-locales"
+                        tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/experiencias/vidigal/vidi1.png"
+                                alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Tour della Favela Vidigal
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Scopri Vidigal, i suoi belvedere e il celebre Alto do Vidigal in un’esperienza culturale
+                                autentica.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 199
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="favela-rocinha" data-category="experiencias-locales"
+                        tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/experiencias/rocina/roci1.png" alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Tour della Favela Rocinha
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Scopri la più grande favela dell’America Latina, tra belvedere, arte e cultura locale.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 199
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="favela-santa-marta" data-category="experiencias-locales"
+                        tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/experiencias/donamarta/dona2.png"
+                                alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Tour della Favela Santa Marta
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Vivi la cultura di Santa Marta tra belvedere, arte urbana e la celebre Laje di Michael
+                                Jackson.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 195
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="stand-up-amanecer" data-category="experiencias-locales"
+                        tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/experiencias/standup/standup1.jpeg"
+                                alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Stand Up Paddle all’Alba
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Pagaia all’alba a Copacabana e vivi un’esperienza unica sul mare.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 190
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="helicoptero-rio" data-category="experiencias-premium"
+                        tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/experienciaspremium/tourhelicoptero/heli1.png"
+                                alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Tour in Elicottero – Rio de Janeiro
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Sorvola spiagge, montagne e monumenti iconici di Rio in un’esperienza aerea esclusiva e
+                                indimenticabile.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 2.000
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="helicoptero-sin-puertas"
+                        data-category="experiencias-premium" tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/experienciaspremium/helisin/helisin4.png"
+                                alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Elicottero senza porte – Avventura estrema
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Vola senza porte sopra i paesaggi più famosi di Rio e vivi la totale libertà in aria.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 2.950
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="ala-delta-pedra-bonita"
+                        data-category="experiencias-premium" tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/experienciaspremium/aladelta/ala1.png"
+                                alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Volo in deltaplano – Pedra Bonita
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Vivi l’emozione di volare sopra il mare e la foresta di Rio in un volo in deltaplano
+                                guidato e sicuro.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 1.300
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="parapente-niteroi" data-category="experiencias-premium"
+                        tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/experienciaspremium/parapente/para1.png"
+                                alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Parapendio a Niterói
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Goditi un volo dolce e panoramico con viste incredibili sull’oceano e sulla costa di
+                                Rio.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 900
+                            </span>
+                        </div>
+                    </article>
+                    <article class="experience-card" data-id="buggy-buzios" data-category="experiencias-premium"
+                        tabindex="0">
+                        <div class="experience-card__image">
+                            <img src="../assets/img/experienciaspremium/buggy/buggy1.png"
+                                alt="Giornata esclusiva in spiaggia">
+                        </div>
+
+                        <div class="experience-card__content">
+                            <h3 class="experience-card__title">
+                                Tour in Buggy – Búzios
+                            </h3>
+
+                            <p class="experience-card__text">
+                                Esplora spiagge paradisiache e punti panoramici unici in un tour divertente a Búzios.
+                            </p>
+
+                            <span class="experience-card__price">
+                                A partire da R$ 130
+                            </span>
+                        </div>
+                    </article>
+
+
+                </div>
+
+            </div>
+        </section>
+        <section class="experience-detail is-hidden" id="experience-detail">
+
+            <div class="experience-detail__container">
+
+                <button class="experience-detail__back" id="detail-back">
+                    ← Voltar
+                </button>
+
+                <div class="experience-detail__gallery" id="detail-gallery"></div>
+
+                <div class="experience-detail__content">
+                    <h2 id="detail-title"></h2>
+                    <p class="experience-detail__price" id="detail-price"></p>
+                    <p class="experience-detail__description" id="detail-description"></p>
+
+                    <ul class="experience-detail__features" id="detail-features"></ul>
+
+                    <a id="detail-cta" class="experience-detail__cta" target="_blank">
+                        Falar no WhatsApp
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        <section class="contact" id="contacto">
+            <div class="contact__container">
+
+                <!-- Lado emocional -->
+                <div class="contact__content">
+
+                    <h2 class="contact__title">
+                        Viva o Rio de Janeiro como um local
+                    </h2>
+
+                    <p class="contact__text">
+                        Descubra os melhores passeios, paisagens e experiências guiadas por especialistas no destino.
+                        Cada roteiro é pensado para que você aproveite ao máximo sua viagem, sem se preocupar com a
+                        organização.
+                    </p>
+
+                    <p class="contact__text">
+                        Ajudamos você a escolher a opção ideal de acordo com seu tempo, seu grupo e o tipo de
+                        experiência que você está procurando.
+                    </p>
+
+                    <a class="contact__cta" href="https://wa.me/559184251859" target="_blank">
+                        Falar com um consultor
+                    </a>
+
+                </div>
+                <!-- Tarjeta redes sociales -->
+                <div class="contact__card">
+
+                    <div class="contact__card-header">
+                        <span class="contact__badge">Viva a experiência</span>
+                        <h3 class="contact__name">Siga-nos nas redes sociais</h3>
+                        <p class="contact__role">
+                            Descubra passeios, paisagens e experiências em tempo real
+                        </p>
+                    </div>
+
+                    <div class="contact__socials">
+
+                        <a href="https://www.instagram.com/cuyetour/" class="social-icon instagram" target="_blank">
+                            <img src="../assets/logos/three-dimensional-instagram-icon-social-software-likes_494359_wh1200-removebg-preview.png"
+                                alt="Instagram">
+                        </a>
+
+                        <a href="https://tiktok.com" class="social-icon tiktok" target="_blank">
+                            <img src="../assets/logos/tiktok-icon-free-png-removebg-preview.png" alt="TikTok">
+                        </a>
+
+                    </div>
+
+                    <a href="https://linktr.ee/cuye" class="contact__linktree" target="_blank">
+                        Acessar catálogo e comunidade
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="cadastur">
+            <div class="cadastur__container">
+
+                <div class="cadastur__content">
+                    <h2 class="cadastur__title">
+                        Operador turístico habilitado
+                    </h2>
+
+                    <p class="cadastur__text">
+                        Cuyetour é uma empresa registrada no Cadastur, o sistema oficial do Ministério do Turismo do
+                        Brasil, que habilita a venda de passeios e experiências turísticas.
+                    </p>
+                </div>
+
+                <div class="cadastur__card">
+                    <img src="../assets/cadastur.png" alt="Registro Cadastur – Ministerio de Turismo de Brasil">
+                </div>
+
+            </div>
+        </section>
+        <footer class="footer">
+
+            <div class="footer__container">
+
+                <!-- BRAND -->
+                <div class="footer__brand">
+                    <h3 class="footer__logo">@Cuyetour</h3>
+                    <p class="footer__text">
+                        Experiências turísticas criadas para conectar você com a natureza,
+                        a cultura e a aventura em cada destino.
+                    </p>
+                </div>
+
+                <!-- INFO -->
+                <div class="footer__info">
+                    <h4>Experiências</h4>
+                    <ul>
+                        <li>Excursões na natureza</li>
+                        <li>Experiências culturais</li>
+                        <li>Aventuras personalizadas</li>
+                        <li>Saídas em grupo e privadas</li>
+                    </ul>
+                </div>
+
+                <!-- CATASTRO -->
+                <div class="footer__legal">
+                    <h4>Registro</h4>
+                    <ul>
+                        <li>Cadastro turístico habilitado</li>
+                        <li>Operador de experiências locais</li>
+                        <li>Atendimento personalizado via WhatsApp</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- BOTTOM -->
+            <div class="footer__bottom">
+                <p>© 2026 Cuyetour. Todos os direitos reservados.</p>
+
+                <a href="https://initiumq.com" class="footer__credit">
+                    Desenvolvido por InitiumQuest
+                </a>
+            </div>
+
+        </footer>
+    </main>
+    <script>
+        const langMobileToggle = document.getElementById("langMobileToggle");
+        const langMobileMenu = document.getElementById("langMobileMenu");
+
+        langMobileToggle.addEventListener("click", () => {
+            langMobileMenu.classList.toggle("active");
+        });
+    </script>
+    <script>
+        const LANG = "it";
+    </script>
+    <script src="../data/experiencies.js"></script>
+
+    <script>
+        const navbarToggle = document.getElementById("navbarToggle");
+        const navbarNav = document.getElementById("navbarNav");
+
+        navbarToggle.addEventListener("click", () => {
+            navbarNav.classList.toggle("active");
+            navbarToggle.classList.toggle("active");
+        });
+
+        // Cerrar menú al hacer click en un link (mobile UX)
+        navbarNav.addEventListener("click", (e) => {
+            if (e.target.classList.contains("navbar__link")) {
+                navbarNav.classList.remove("active");
+                navbarToggle.classList.remove("active");
+            }
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const chips = document.querySelector(".experience-chips");
+            if (!chips || window.innerWidth >= 768) return;
+
+            let hasNudged = false;
+
+            const observer = new IntersectionObserver(
+                ([entry]) => {
+                    if (entry.isIntersecting && !hasNudged) {
+                        hasNudged = true;
+
+                        chips.scrollBy({ left: 60, behavior: "smooth" });
+
+                        setTimeout(() => {
+                            chips.scrollBy({ left: -60, behavior: "smooth" });
+                        }, 500);
+                    }
+                },
+                { threshold: 0.6 }
+            );
+
+            observer.observe(chips);
+        });
+    </script>
+
+
+
+
+
+    <script>
+        /* ============================
+           MULTIIDIOMA HELPER
+        ============================ */
+        function t(obj) {
+            return obj?.[LANG] || obj?.es || "";
+        }
+
+        /* ============================
+           SELECTORES BASE
+        ============================ */
+        const chips = document.querySelectorAll(".experience-chip");
+        const cards = document.querySelectorAll(".experience-card");
+
+        const experiencesSection = document.querySelector(".experiences");
+        const detailSection = document.getElementById("experience-detail");
+        const backButton = document.getElementById("detail-back");
+
+        history.replaceState({ view: "grid" }, "", location.pathname);
+
+        /* ============================
+           FILTRADO POR CATEGORÍA
+        ============================ */
+        chips.forEach(chip => {
+            chip.addEventListener("click", () => {
+                const category = chip.dataset.category;
+
+                detailSection.classList.add("is-hidden");
+                experiencesSection.classList.remove("is-hidden");
+
+                history.replaceState({ view: "grid" }, "", location.pathname);
+
+                chips.forEach(c => c.classList.remove("is-active"));
+                chip.classList.add("is-active");
+
+                cards.forEach(card => {
+                    if (category === "all" || card.dataset.category === category) {
+                        card.classList.remove("is-hidden");
+                    } else {
+                        card.classList.add("is-hidden");
+                    }
+                });
+            });
+        });
+
+        /* ============================
+           RENDER DETALLE
+        ============================ */
+        function renderExperienceDetail(experience) {
+            if (!experience) return;
+
+            document.getElementById("detail-title").textContent = t(experience.titulo);
+            document.getElementById("detail-price").textContent = t(experience.precio);
+            document.getElementById("detail-description").textContent = t(experience.descripcion);
+
+            document.getElementById("detail-cta").href =
+                `https://wa.me/559184251859?text=${encodeURIComponent(
+                    t({
+                        es: `Hola! Quiero info sobre ${t(experience.titulo)}`,
+                        pt: `Olá! Quero informações sobre ${t(experience.titulo)}`,
+                        en: `Hello! I want information about ${t(experience.titulo)}`,
+                        it: `Ciao! Vorrei informazioni su ${t(experience.titulo)}`
+                    })
+                )}`;
+
+            /* ============================
+   GALERÍA
+============================ */
+            const gallery = document.getElementById("detail-gallery");
+            gallery.innerHTML = "";
+
+            if (experience.imagenes?.length) {
+                const track = document.createElement("div");
+                track.className = "gallery-track";
+
+                experience.imagenes.forEach(src => {
+                    const img = document.createElement("img");
+                    img.src = src;
+                    img.alt = t(experience.titulo) || "experience";
+                    track.appendChild(img);
+                });
+
+                gallery.appendChild(track);
+
+                if (experience.imagenes.length > 1) {
+                    let index = 0;
+
+                    const dotsContainer = document.createElement("div");
+                    dotsContainer.className = "gallery-dots";
+                    const dots = [];
+
+                    experience.imagenes.forEach((_, i) => {
+                        const dot = document.createElement("span");
+                        if (i === 0) dot.classList.add("active");
+                        dots.push(dot);
+                        dotsContainer.appendChild(dot);
+                    });
+
+                    gallery.appendChild(dotsContainer);
+
+                    const prev = document.createElement("button");
+                    prev.className = "gallery-btn prev";
+                    prev.innerHTML = "‹";
+
+                    const next = document.createElement("button");
+                    next.className = "gallery-btn next";
+                    next.innerHTML = "›";
+
+                    gallery.appendChild(prev);
+                    gallery.appendChild(next);
+
+                    function updateSlider() {
+                        track.style.transform = `translateX(-${index * 100}%)`;
+                        dots.forEach((dot, i) =>
+                            dot.classList.toggle("active", i === index)
+                        );
+                    }
+
+                    prev.addEventListener("click", e => {
+                        e.stopPropagation();
+                        if (index > 0) index--;
+                        updateSlider();
+                    });
+
+                    next.addEventListener("click", e => {
+                        e.stopPropagation();
+                        if (index < experience.imagenes.length - 1) index++;
+                        updateSlider();
+                    });
+
+                    /* ============================
+                       SWIPE FIX iOS ESTABLE
+                    ============================ */
+                    let startX = 0;
+                    let endX = 0;
+                    let isSwiping = false;
+
+                    gallery.addEventListener("touchstart", (e) => {
+                        startX = e.touches[0].clientX;
+                        endX = startX;
+                        isSwiping = true;
+                    }, { passive: true });
+
+                    gallery.addEventListener("touchmove", (e) => {
+                        if (!isSwiping) return;
+                        endX = e.touches[0].clientX;
+                    }, { passive: true });
+
+                    gallery.addEventListener("touchend", () => {
+                        if (!isSwiping) return;
+                        isSwiping = false;
+
+                        const diff = startX - endX;
+
+                        if (Math.abs(diff) < 40) return;
+
+                        if (diff > 0 && index < experience.imagenes.length - 1) {
+                            index++;
+                        }
+
+                        if (diff < 0 && index > 0) {
+                            index--;
+                        }
+
+                        updateSlider();
+                    });
+                }
+            }
+
+            /* ============================
+               DETALLES
+            ============================ */
+            const features = document.getElementById("detail-features");
+            features.innerHTML = "";
+
+            const labels = {
+                incluye: { es: "Incluye", pt: "Inclui", en: "Includes", it: "Include" },
+                noIncluye: { es: "No incluye", pt: "Não inclui", en: "Does not include", it: "Non include" },
+                duracion: { es: "Duración", pt: "Duração", en: "Duration", it: "Durata" },
+                ubicacion: { es: "Ubicación", pt: "Localização", en: "Location", it: "Posizione" }
+            };
+
+            if (experience.detalles) {
+                Object.entries(experience.detalles).forEach(([key, value]) => {
+                    const li = document.createElement("li");
+                    li.innerHTML = `<strong>${t(labels[key])}:</strong> ${t(value)}`;
+                    features.appendChild(li);
+                });
+            }
+        }
+
+        /* ============================
+           CLICK EN CARD
+        ============================ */
+        document.addEventListener("click", e => {
+            const card = e.target.closest(".experience-card");
+            if (!card) return;
+
+            const id = card.dataset.id;
+            const experience = EXPERIENCES.find(exp => exp.id === id);
+            if (!experience) return;
+
+            renderExperienceDetail(experience);
+
+            experiencesSection.classList.add("is-hidden");
+            detailSection.classList.remove("is-hidden");
+
+            history.pushState({ view: "detail", id }, "", `#experiencia-${id}`);
+            detailSection.scrollIntoView({ behavior: "smooth" });
+        });
+
+        /* ============================
+           VOLVER
+        ============================ */
+        backButton.addEventListener("click", () => history.back());
+
+        window.addEventListener("popstate", e => {
+            if (!e.state || e.state.view === "grid") {
+                detailSection.classList.add("is-hidden");
+                experiencesSection.classList.remove("is-hidden");
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>
