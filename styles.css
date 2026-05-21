@@ -871,10 +871,10 @@ body {
     width: 100%;
     flex-shrink: 0;
 
-    height: 600px;
-    object-fit: cover;
+    height: 650px;
 
-    object-position: center;
+    object-fit: contain;
+    object-position: center 30%;
 }
 
 /* ========================= */
