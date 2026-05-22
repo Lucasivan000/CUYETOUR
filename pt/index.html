@@ -1103,7 +1103,7 @@
 
                 experience.imagenes.forEach(src => {
                     const img = document.createElement("img");
-                    img.src = src;
+                    img.src = resolveAsset(src);
                     img.alt = t(experience.titulo) || "experience";
                     track.appendChild(img);
                 });
@@ -1117,11 +1117,11 @@
                     dotsContainer.className = "gallery-dots";
                     const dots = [];
 
-                    experience.imagenes.forEach(src => {
-                        const img = document.createElement("img");
-                        img.src = resolveAsset(src);
-                        img.alt = t(experience.titulo) || "experience";
-                        track.appendChild(img);
+                    experience.imagenes.forEach((_, i) => {
+                        const dot = document.createElement("span");
+                        if (i === 0) dot.classList.add("active");
+                        dots.push(dot);
+                        dotsContainer.appendChild(dot);
                     });
 
                     gallery.appendChild(dotsContainer);
