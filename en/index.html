@@ -1030,8 +1030,18 @@
     <script>
         function getBasePath() {
             const path = window.location.pathname;
-            const isRoot = path.split("/").filter(Boolean).length === 1;
-            return isRoot ? "" : "..";
+
+            // si estás dentro de una carpeta de idioma
+            if (
+                path.includes("/en/") ||
+                path.includes("/pt/") ||
+                path.includes("/it/")
+            ) {
+                return "..";
+            }
+
+            // raíz
+            return ".";
         }
 
         const BASE_PATH = getBasePath();
