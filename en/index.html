@@ -977,7 +977,6 @@
     </script>
     <script>
         const LANG = "en";
-        const BASE_PATH = LANG === "es" ? "" : `/${LANG}`;
     </script>
     <script src="../data/experiencies.js"></script>
 
@@ -1029,6 +1028,17 @@
 
 
     <script>
+        function getBasePath() {
+            const path = window.location.pathname;
+            const isRoot = path.split("/").filter(Boolean).length === 1;
+            return isRoot ? "" : "..";
+        }
+
+        const BASE_PATH = getBasePath();
+
+        function resolveAsset(path) {
+            return `${BASE_PATH}/assets/${path}`;
+        }
         /* ============================
            MULTIIDIOMA HELPER
         ============================ */
@@ -1103,9 +1113,11 @@
                 const track = document.createElement("div");
                 track.className = "gallery-track";
 
+
+
                 experience.imagenes.forEach(src => {
                     const img = document.createElement("img");
-                    img.src = `${BASE_PATH}/${src.replace("./", "")}`;
+                    img.src = resolveAsset(src);
                     img.alt = t(experience.titulo) || "experience";
                     track.appendChild(img);
                 });

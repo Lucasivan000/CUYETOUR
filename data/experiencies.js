@@ -21,12 +21,12 @@ const EXPERIENCES = [
             it: "Conosciuta come la “Caraibi brasiliana”, Arraial do Cabo è una delle destinazioni più richieste della costa di Rio de Janeiro per le sue acque cristalline e le spiagge di sabbia bianca. Durante questo tour in barca visiterai alcuni dei punti più impressionanti della regione, con soste per goderti il paesaggio, nuotare e conoscere luoghi iconici come Praia do Forno, l’Isola del Faro, la Grotta Blu e la spiaggia di Pontal do Atalaia, oltre al caratteristico profilo di scimmia nelle formazioni rocciose. È un’esperienza completa a diretto contatto con il mare, ideale per chi vuole scoprire spiagge uniche con acque calme e scenari naturali indimenticabili."
         },
         imagenes: [
-            "./assets/img/barcos/arraial/arraial1.jpeg",
-            "./assets/img/barcos/arraial/arraial2.jpeg",
-            "./assets/img/barcos/arraial/arraial3.jpeg",
-            "./assets/img/barcos/arraial/arraial4.jpeg",
-            "./assets/img/barcos/arraial/arraial5.jpeg",
-            "./assets/img/barcos/arraial/arraial6.jpeg"
+            "img/barcos/arraial/arraial1.jpeg",
+            "img/barcos/arraial/arraial2.jpeg",
+            "img/barcos/arraial/arraial3.jpeg",
+            "img/barcos/arraial/arraial4.jpeg",
+            "img/barcos/arraial/arraial5.jpeg",
+            "img/barcos/arraial/arraial6.jpeg"
         ],
         detalles: {
             duracion: {
