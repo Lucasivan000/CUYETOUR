@@ -1006,6 +1006,27 @@
 
 
     <script>
+        function getBasePath() {
+            const path = window.location.pathname;
+
+            // si estás dentro de una carpeta de idioma
+            if (
+                path.includes("/en/") ||
+                path.includes("/pt/") ||
+                path.includes("/it/")
+            ) {
+                return "..";
+            }
+
+            // raíz
+            return ".";
+        }
+
+        const BASE_PATH = getBasePath();
+
+        function resolveAsset(path) {
+            return `${BASE_PATH}/assets/${path}`;
+        }
         /* ============================
            MULTIIDIOMA HELPER
         ============================ */
@@ -1096,11 +1117,11 @@
                     dotsContainer.className = "gallery-dots";
                     const dots = [];
 
-                    experience.imagenes.forEach((_, i) => {
-                        const dot = document.createElement("span");
-                        if (i === 0) dot.classList.add("active");
-                        dots.push(dot);
-                        dotsContainer.appendChild(dot);
+                    experience.imagenes.forEach(src => {
+                        const img = document.createElement("img");
+                        img.src = resolveAsset(src);
+                        img.alt = t(experience.titulo) || "experience";
+                        track.appendChild(img);
                     });
 
                     gallery.appendChild(dotsContainer);
