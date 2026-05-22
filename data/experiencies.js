@@ -79,11 +79,11 @@ const EXPERIENCES = [
             it: "Angra dos Reis è una destinazione unica nello stato di Rio de Janeiro, conosciuta per le sue 365 isole e le acque cristalline. In questo tour navighiamo tra alcune delle sue spiagge e isole più visitate, con soste per godersi il mare, nuotare e scoprire paesaggi di grande bellezza naturale. È un’esperienza completa a contatto con la natura, ideale per chi cerca una giornata di mare diversa circondato da isole paradisiache."
         },
         imagenes: [
-            "./assets/img/barcos/angra/angra1.png",
-            "./assets/img/barcos/angra/angra2.png",
-            "./assets/img/barcos/angra/angra3.png",
-            "./assets/img/barcos/angra/angra4.png",
-            "./assets/img/barcos/angra/angra5.png"
+            "img/barcos/angra/angra1.png",
+            "img/barcos/angra/angra2.png",
+            "img/barcos/angra/angra3.png",
+            "img/barcos/angra/angra4.png",
+            "img/barcos/angra/angra5.png"
         ],
         detalles: {
             duracion: {
@@ -134,9 +134,9 @@ const EXPERIENCES = [
             it: "Scopri Angra dos Reis, una destinazione unica nello stato di Rio de Janeiro con più di 365 isole circondate da acque cristalline. In questa esperienza navighiamo tra alcune delle sue isole più visitate, combinando relax, natura e soste per godersi il mare in un ambiente totalmente paradisiaco, ideale per staccare la spina e vivere una giornata completa a contatto con la natura."
         },
         imagenes: [
-            "./assets/img/barcos/angraexp/angraexp3.png",
-            "./assets/img/barcos/angraexp/angraexp2.png",
-            "./assets/img/barcos/angraexp/angraexp4.png"
+            "img/barcos/angraexp/angraexp3.png",
+            "img/barcos/angraexp/angraexp2.png",
+            "img/barcos/angraexp/angraexp4.png"
         ],
         detalles: {
             duracion: {
@@ -188,9 +188,9 @@ const EXPERIENCES = [
             it: "Scopri Búzios in un tour completo delle sue spiagge più emblematiche, con soste per il bagno in acque calme e cristalline. Un’esperienza ideale per esplorare in barca una delle regioni più famose del Brasile, combinando paesaggi, relax e tempo libero al mare. Perfetto per chi cerca una classica giornata di mare con viste indimenticabili."
         },
         imagenes: [
-            "./assets/img/barcos/buzios/buzios1.png",
-            "./assets/img/barcos/buzios/buzios2.png",
-            "./assets/img/barcos/buzios/buzios3.png"
+            "img/barcos/buzios/buzios1.png",
+            "img/barcos/buzios/buzios2.png",
+            "img/barcos/buzios/buzios3.png"
         ],
         detalles: {
             duracion: {
@@ -241,14 +241,14 @@ const EXPERIENCES = [
             it: "Vivi Búzios a bordo di un catamarano con un’esperienza più sociale e dinamica, navigando tra le sue spiagge più iconiche con musica, mare aperto e soste per il bagno. Ideale per chi vuole godersi il viaggio tanto quanto la destinazione, con un’atmosfera rilassata e viste panoramiche durante tutta la navigazione."
         },
         imagenes: [
-            "./assets/img/barcos/buzioscatamaran/buzioscat1.png",
-            "./assets/img/barcos/buzioscatamaran/buzioscat2.png",
-            "./assets/img/barcos/buzioscatamaran/buzioscat3.png",
-            "./assets/img/barcos/buzioscatamaran/buzioscat4.png",
-            "./assets/img/barcos/buzioscatamaran/buzioscat5.png",
-            "./assets/img/barcos/buzioscatamaran/buzioscat6.png",
-            "./assets/img/barcos/buzioscatamaran/buzioscat7.png",
-            "./assets/img/barcos/buzioscatamaran/buzioscat8.png"
+            "img/barcos/buzioscatamaran/buzioscat1.png",
+            "img/barcos/buzioscatamaran/buzioscat2.png",
+            "img/barcos/buzioscatamaran/buzioscat3.png",
+            "img/barcos/buzioscatamaran/buzioscat4.png",
+            "img/barcos/buzioscatamaran/buzioscat5.png",
+            "img/barcos/buzioscatamaran/buzioscat6.png",
+            "img/barcos/buzioscatamaran/buzioscat7.png",
+            "img/barcos/buzioscatamaran/buzioscat8.png"
         ],
         detalles: {
             duracion: {
@@ -299,11 +299,11 @@ const EXPERIENCES = [
             it: "Goditi Búzios in un’esperienza più esclusiva e rilassata, percorrendo le sue spiagge più famose con maggiore comfort e meno affollamento. Un tour pensato per chi vuole godersi il paesaggio, il mare e la tranquillità dell’ambiente con una navigazione più comoda e selezionata."
         },
         imagenes: [
-            "./assets/img/barcos/buziospremium/premium1.png",
-            "./assets/img/barcos/buziospremium/premium2.png",
-            "./assets/img/barcos/buziospremium/premium3.png",
-            "./assets/img/barcos/buziospremium/premium4.png",
-            "./assets/img/barcos/buziospremium/premium5.png"
+            "img/barcos/buziospremium/premium1.png",
+            "img/barcos/buziospremium/premium2.png",
+            "img/barcos/buziospremium/premium3.png",
+            "img/barcos/buziospremium/premium4.png",
+            "img/barcos/buziospremium/premium5.png"
         ],
         detalles: {
             duracion: {
@@ -354,15 +354,15 @@ const EXPERIENCES = [
             it: "Vivi un’esperienza nautica di alto livello a bordo della barca Malika di 40 piedi. Ideale per tour privati, celebrazioni, eventi speciali o gruppi che cercano comfort, privacy ed esclusività. Un’imbarcazione elegante, spaziosa e completamente attrezzata per godersi la costa con stile e tranquillità."
         },
         imagenes: [
-            "./assets/img/barcos/malika/malika1.png",
-            "./assets/img/barcos/malika/malika2.png",
-            "./assets/img/barcos/malika/malika3.png",
-            "./assets/img/barcos/malika/malika4.png",
-            "./assets/img/barcos/malika/malika5.png",
-            "./assets/img/barcos/malika/malika6.png",
-            "./assets/img/barcos/malika/malika7.png",
-            "./assets/img/barcos/malika/malika8.png",
-            "./assets/img/barcos/malika/malika9.png"
+            "img/barcos/malika/malika1.png",
+            "img/barcos/malika/malika2.png",
+            "img/barcos/malika/malika3.png",
+            "img/barcos/malika/malika4.png",
+            "img/barcos/malika/malika5.png",
+            "img/barcos/malika/malika6.png",
+            "img/barcos/malika/malika7.png",
+            "img/barcos/malika/malika8.png",
+            "img/barcos/malika/malika9.png"
         ],
         detalles: {
             duracion: {
@@ -413,13 +413,13 @@ const EXPERIENCES = [
             it: "La barca Conquista è perfetta per gite di gruppo, celebrazioni o uscite in famiglia. Moderna, spaziosa e confortevole, offre una navigazione stabile e un ambiente ideale per rilassarsi, socializzare e godersi il mare in totale sicurezza."
         },
         imagenes: [
-            "./assets/img/barcos/conquista/conquista1.png",
-            "./assets/img/barcos/conquista/conquista2.png",
-            "./assets/img/barcos/conquista/conquista3.png",
-            "./assets/img/barcos/conquista/conquista4.png",
-            "./assets/img/barcos/conquista/conquista5.png",
-            "./assets/img/barcos/conquista/conquista6.png",
-            "./assets/img/barcos/conquista/conquista7.png"
+            "img/barcos/conquista/conquista1.png",
+            "img/barcos/conquista/conquista2.png",
+            "img/barcos/conquista/conquista3.png",
+            "img/barcos/conquista/conquista4.png",
+            "img/barcos/conquista/conquista5.png",
+            "img/barcos/conquista/conquista6.png",
+            "img/barcos/conquista/conquista7.png"
         ],
         detalles: {
             duracion: {
@@ -470,12 +470,12 @@ const EXPERIENCES = [
             it: "Goditi un tour esclusivo a bordo della barca Emir Al Bahr, ideale per gruppi che cercano comfort e un’esperienza completa in mare. Perfetta per condividere momenti unici, con spazi interni confortevoli e servizio a bordo."
         },
         imagenes: [
-            "./assets/img/barcos/emir/emir1.png",
-            "./assets/img/barcos/emir/emir2.png",
-            "./assets/img/barcos/emir/emir3.png",
-            "./assets/img/barcos/emir/emir4.png",
-            "./assets/img/barcos/emir/emir5.png",
-            "./assets/img/barcos/emir/emir6.png"
+            "img/barcos/emir/emir1.png",
+            "img/barcos/emir/emir2.png",
+            "img/barcos/emir/emir3.png",
+            "img/barcos/emir/emir4.png",
+            "img/barcos/emir/emir5.png",
+            "img/barcos/emir/emir6.png"
         ],
         detalles: {
             duracion: {
@@ -526,13 +526,13 @@ const EXPERIENCES = [
             it: "Un’esperienza completa e accessibile per scoprire i migliori paesaggi di Cabo Frio. Tour condiviso ideale per godersi il mare, le isole e le spiagge, con open bar, open food e accesso alla struttura alberghiera incluso."
         },
         imagenes: [
-            "./assets/img/barcos/cabofrio/cabo1.png",
-            "./assets/img/barcos/cabofrio/cabo2.png",
-            "./assets/img/barcos/cabofrio/cabo3.png",
-            "./assets/img/barcos/cabofrio/cabo4.png",
-            "./assets/img/barcos/cabofrio/cabo5.png",
-            "./assets/img/barcos/cabofrio/cabo6.png",
-            "./assets/img/barcos/cabofrio/cabo7.png"
+            "img/barcos/cabofrio/cabo1.png",
+            "img/barcos/cabofrio/cabo2.png",
+            "img/barcos/cabofrio/cabo3.png",
+            "img/barcos/cabofrio/cabo4.png",
+            "img/barcos/cabofrio/cabo5.png",
+            "img/barcos/cabofrio/cabo6.png",
+            "img/barcos/cabofrio/cabo7.png"
         ],
         detalles: {
             duracion: {
@@ -583,14 +583,14 @@ const EXPERIENCES = [
             it: "La barca Magnata di 44 piedi offre un’esperienza premium per chi cerca esclusività, raffinatezza e comfort. Ideale per piccoli gruppi che vogliono godersi il mare con totale privacy e un’imbarcazione di alto livello."
         },
         imagenes: [
-            "./assets/img/barcos/magnata/magnata1.png",
-            "./assets/img/barcos/magnata/magnata2.png",
-            "./assets/img/barcos/magnata/magnata3.png",
-            "./assets/img/barcos/magnata/magnata4.png",
-            "./assets/img/barcos/magnata/magnata5.png",
-            "./assets/img/barcos/magnata/magnata6.png",
-            "./assets/img/barcos/magnata/magnata7.png",
-            "./assets/img/barcos/magnata/magnata8.png"
+            "img/barcos/magnata/magnata1.png",
+            "img/barcos/magnata/magnata2.png",
+            "img/barcos/magnata/magnata3.png",
+            "img/barcos/magnata/magnata4.png",
+            "img/barcos/magnata/magnata5.png",
+            "img/barcos/magnata/magnata6.png",
+            "img/barcos/magnata/magnata7.png",
+            "img/barcos/magnata/magnata8.png"
         ],
         detalles: {
             duracion: {
@@ -641,12 +641,12 @@ const EXPERIENCES = [
             it: "Un tour ideale per gruppi che cercano comfort e divertimento. La barca Picadilly combina spazi interni confortevoli con intrattenimento a bordo, perfetta per godersi il mare per diverse ore."
         },
         imagenes: [
-            "./assets/img/barcos/picadilly/pica1.png",
-            "./assets/img/barcos/picadilly/pica2.png",
-            "./assets/img/barcos/picadilly/pica3.png",
-            "./assets/img/barcos/picadilly/pica4.png",
-            "./assets/img/barcos/picadilly/pica5.png",
-            "./assets/img/barcos/picadilly/pica6.png"
+            "img/barcos/picadilly/pica1.png",
+            "img/barcos/picadilly/pica2.png",
+            "img/barcos/picadilly/pica3.png",
+            "img/barcos/picadilly/pica4.png",
+            "img/barcos/picadilly/pica5.png",
+            "img/barcos/picadilly/pica6.png"
         ],
         detalles: {
             duracion: {
@@ -697,7 +697,7 @@ const EXPERIENCES = [
             it: "Vivi un’esperienza ricca di adrenalina esplorando il mare in jet ski. Ideale per chi cerca azione, divertimento e un modo diverso di conoscere la costa, sempre accompagnato da guide professionali."
         },
         imagenes: [
-            "./assets/img/barcos/jetsky/jet1.png"
+            "img/barcos/jetsky/jet1.png"
         ],
         detalles: {
             duracion: {
@@ -748,11 +748,11 @@ const EXPERIENCES = [
             it: "Un tour ideale per tutte le età che combina natura marina, arte urbana e gli spazi più moderni di Rio de Janeiro. Visita il più grande acquario marino del Sud America, con tunnel subacquei e centinaia di specie, e percorri il rinnovato Boulevard Olimpico, una delle aree più vivaci della città, ricca di storia, cultura e murales iconici."
         },
         imagenes: [
-            "./assets/img/tours/acuario/acua1.png",
-            "./assets/img/tours/acuario/acua2.png",
-            "./assets/img/tours/acuario/acua3.png",
-            "./assets/img/tours/acuario/acua5.png",
-            "./assets/img/tours/acuario/tour4.png"
+            "img/tours/acuario/acua1.png",
+            "img/tours/acuario/acua2.png",
+            "img/tours/acuario/acua3.png",
+            "img/tours/acuario/acua5.png",
+            "img/tours/acuario/tour4.png"
         ],
         detalles: {
             duracion: {
@@ -803,12 +803,12 @@ const EXPERIENCES = [
             it: "L’opzione più completa per conoscere Rio de Janeiro in un solo giorno. Questo tour attraversa i principali simboli della città, combinando paesaggi spettacolari, cultura e storia. Include visite al Cristo Redentore e al Pan di Zucchero, oltre a un percorso panoramico attraverso quartieri tradizionali, spiagge e punti culturali, tutto con trasporto confortevole e guida specializzata."
         },
         imagenes: [
-            "./assets/img/tours/diario/dia1.png",
-            "./assets/img/tours/diario/dia2.png",
-            "./assets/img/tours/diario/dia3.png",
-            "./assets/img/tours/diario/dia4.png",
-            "./assets/img/tours/diario/dia5.png",
-            "./assets/img/tours/diario/dia6.png"
+            "img/tours/diario/dia1.png",
+            "img/tours/diario/dia2.png",
+            "img/tours/diario/dia3.png",
+            "img/tours/diario/dia4.png",
+            "img/tours/diario/dia5.png",
+            "img/tours/diario/dia6.png"
         ],
         detalles: {
             duracion: {
@@ -859,10 +859,10 @@ const EXPERIENCES = [
             it: "Un tour ideale per conoscere l’essenziale di Rio de Janeiro. Include la visita al Cristo Redentore, uno dei monumenti più famosi del mondo, e un tour panoramico dei principali punti turistici e culturali della città. Perfetto per chi ha poco tempo e desidera un’esperienza completa e ben organizzata."
         },
         imagenes: [
-            "./assets/img/tours/corcovado/corco1.png",
-            "./assets/img/tours/corcovado/corco2.png",
-            "./assets/img/tours/corcovado/corco3.png",
-            "./assets/img/tours/corcovado/corco4.png"
+            "img/tours/corcovado/corco1.png",
+            "img/tours/corcovado/corco2.png",
+            "img/tours/corcovado/corco3.png",
+            "img/tours/corcovado/corco4.png"
         ],
         detalles: {
             duracion: {
@@ -913,10 +913,10 @@ const EXPERIENCES = [
             it: "Una giornata completa che combina paesaggi, divertimento e natura. Questo tour riunisce tre grandi attrazioni di Rio: il Pan di Zucchero con la sua funivia panoramica, l’AquaRio e il BioParque, uno zoo moderno dedicato alla conservazione. Ideale per famiglie e viaggiatori che cercano un’esperienza varia e dinamica."
         },
         imagenes: [
-            "./assets/img/tours/rioaventura/aven1.png",
-            "./assets/img/tours/rioaventura/aven2.png",
-            "./assets/img/tours/rioaventura/aven3.png",
-            "./assets/img/tours/rioaventura/aven4.png"
+            "img/tours/rioaventura/aven1.png",
+            "img/tours/rioaventura/aven2.png",
+            "img/tours/rioaventura/aven3.png",
+            "img/tours/rioaventura/aven4.png"
         ],
         detalles: {
             duracion: {
@@ -967,8 +967,8 @@ const EXPERIENCES = [
             it: "Un’esperienza imperdibile per gli amanti del calcio e della cultura brasiliana. Scopri il mitico Stadio Maracanã, teatro di finali storiche e grandi momenti dello sport mondiale. Il tour percorre l’esterno dello stadio e i suoi dintorni, con spiegazioni sulla sua storia e rilevanza culturale."
         },
         imagenes: [
-            "./assets/img/tours/maracana/mara2.png",
-            "./assets/img/tours/maracana/mara1.png"
+            "img/tours/maracana/mara2.png",
+            "img/tours/maracana/mara1.png"
         ],
         detalles: {
             duracion: {
@@ -1019,11 +1019,11 @@ const EXPERIENCES = [
             it: "Una delle escursioni più famose di Rio de Janeiro. La Pedra do Telégrafo offre una camminata immersa nella natura e una vista panoramica mozzafiato della costa carioca. Ideale per chi cerca avventura, contatto con la natura e foto iconiche, tutto in un’esperienza guidata e sicura."
         },
         imagenes: [
-            "./assets/img/naturaleza/telegrafo/tele1.png",
-            "./assets/img/naturaleza/telegrafo/tele2.png",
-            "./assets/img/naturaleza/telegrafo/tele3.png",
-            "./assets/img/naturaleza/telegrafo/tele4.png",
-            "./assets/img/naturaleza/telegrafo/tele5.png"
+            "img/naturaleza/telegrafo/tele1.png",
+            "img/naturaleza/telegrafo/tele2.png",
+            "img/naturaleza/telegrafo/tele3.png",
+            "img/naturaleza/telegrafo/tele4.png",
+            "img/naturaleza/telegrafo/tele5.png"
         ],
         detalles: {
             duracion: {
@@ -1074,10 +1074,10 @@ const EXPERIENCES = [
             it: "Una delle escursioni più complete e spettacolari di Rio de Janeiro. Il sentiero del Morro Dois Irmãos attraversa aree verdi e termina con una delle viste più impressionanti della città, includendo Leblon, Ipanema, Lagoa e São Conrado. Ideale per gli amanti del trekking e della natura."
         },
         imagenes: [
-            "./assets/img/naturaleza/doisirmaos/dos1.png",
-            "./assets/img/naturaleza/doisirmaos/dos2.png",
-            "./assets/img/naturaleza/doisirmaos/dos3.png",
-            "./assets/img/naturaleza/doisirmaos/dos4.png"
+            "img/naturaleza/doisirmaos/dos1.png",
+            "img/naturaleza/doisirmaos/dos2.png",
+            "img/naturaleza/doisirmaos/dos3.png",
+            "img/naturaleza/doisirmaos/dos4.png"
         ],
         detalles: {
             duracion: {
@@ -1128,13 +1128,13 @@ const EXPERIENCES = [
             it: "Esplora la più grande foresta urbana del mondo in un tour confortevole ricco di paesaggi incredibili. Il tour in jeep nella Foresta da Tijuca combina natura, cascate, punti panoramici e aria pura, ideale per chi desidera conoscere il lato più verde di Rio senza affrontare camminate impegnative."
         },
         imagenes: [
-            "./assets/img/naturaleza/tiujca/yuca1.png",
-            "./assets/img/naturaleza/tiujca/yuca2.png",
-            "./assets/img/naturaleza/tiujca/yuca3.png",
-            "./assets/img/naturaleza/tiujca/yuca4.png",
-            "./assets/img/naturaleza/tiujca/yuca5.png",
-            "./assets/img/naturaleza/tiujca/yuca6.png",
-            "./assets/img/naturaleza/tiujca/yuca7.png"
+            "img/naturaleza/tiujca/yuca1.png",
+            "img/naturaleza/tiujca/yuca2.png",
+            "img/naturaleza/tiujca/yuca3.png",
+            "img/naturaleza/tiujca/yuca4.png",
+            "img/naturaleza/tiujca/yuca5.png",
+            "img/naturaleza/tiujca/yuca6.png",
+            "img/naturaleza/tiujca/yuca7.png"
         ],
         detalles: {
             duracion: {
@@ -1185,11 +1185,11 @@ const EXPERIENCES = [
             it: "Un’escursione imperdibile nella splendida città di Petrópolis, situata nella regione montuosa. Conosciuta come la Città Imperiale, unisce storia, architettura europea e natura. Un tour ideale per uscire da Rio e scoprire un ambiente più fresco, culturale e rilassante."
         },
         imagenes: [
-            "./assets/img/naturaleza/petropolis/pet1.png",
-            "./assets/img/naturaleza/petropolis/pet2.png",
-            "./assets/img/naturaleza/petropolis/pet3.png",
-            "./assets/img/naturaleza/petropolis/pet4.png",
-            "./assets/img/naturaleza/petropolis/pet5.png"
+            "img/naturaleza/petropolis/pet1.png",
+            "img/naturaleza/petropolis/pet2.png",
+            "img/naturaleza/petropolis/pet3.png",
+            "img/naturaleza/petropolis/pet4.png",
+            "img/naturaleza/petropolis/pet5.png"
         ],
         detalles: {
             duracion: {
@@ -1240,8 +1240,8 @@ const EXPERIENCES = [
             it: "Vivi una delle esperienze più autentiche di Rio de Janeiro visitando la comunità del Vidigal. Questo tour combina cultura locale, storia, punti panoramici spettacolari e l’energia unica del famoso Alto do Vidigal, offrendo uno sguardo reale e rispettoso sulla vita nella favela."
         },
         imagenes: [
-            "./assets/img/experiencias/vidigal/vidi1.png",
-            "./assets/img/experiencias/vidigal/vidi2.png"
+            "img/experiencias/vidigal/vidi1.png",
+            "img/experiencias/vidigal/vidi2.png"
         ],
         detalles: {
             duracion: {
@@ -1292,12 +1292,12 @@ const EXPERIENCES = [
             it: "Scopri da vicino la più grande favela dell’America Latina attraverso un tour culturale e sicuro. Il tour della Rocinha include punti panoramici, murales artistici, spazi culturali e musei comunitari, offrendo un’esperienza arricchente che mostra la storia, l’identità e la forza della comunità locale."
         },
         imagenes: [
-            "./assets/img/experiencias/rocina/roci1.png",
-            "./assets/img/experiencias/rocina/roci2.png",
-            "./assets/img/experiencias/rocina/roci3.png",
-            "./assets/img/experiencias/rocina/roci4.png",
-            "./assets/img/experiencias/rocina/roci5.png",
-            "./assets/img/experiencias/rocina/roci6.png"
+            "img/experiencias/rocina/roci1.png",
+            "img/experiencias/rocina/roci2.png",
+            "img/experiencias/rocina/roci3.png",
+            "img/experiencias/rocina/roci4.png",
+            "img/experiencias/rocina/roci5.png",
+            "img/experiencias/rocina/roci6.png"
         ],
         detalles: {
             duracion: {
@@ -1401,15 +1401,15 @@ const EXPERIENCES = [
             it: "Un’esperienza unica per iniziare la giornata a Rio de Janeiro. Fai stand up paddle mentre il sole sorge sul mare di Copacabana, in un’attività guidata, sicura e perfetta per tutti i livelli, con foto e video inclusi per portare con te un ricordo indimenticabile."
         },
         imagenes: [
-            "./assets/img/experiencias/standup/standup1.jpeg",
-            "./assets/img/experiencias/standup/standup2.jpeg",
-            "./assets/img/experiencias/standup/standup3.jpeg",
-            "./assets/img/experiencias/standup/standup4.jpeg",
-            "./assets/img/experiencias/standup/standup5.jpeg",
-            "./assets/img/experiencias/standup/standup6.jpeg",
-            "./assets/img/experiencias/standup/standup7.jpeg",
-            "./assets/img/experiencias/standup/standup8.jpeg",
-            "./assets/img/experiencias/standup/standup9.jpeg"
+            "img/experiencias/standup/standup1.jpeg",
+            "img/experiencias/standup/standup2.jpeg",
+            "img/experiencias/standup/standup3.jpeg",
+            "img/experiencias/standup/standup4.jpeg",
+            "img/experiencias/standup/standup5.jpeg",
+            "img/experiencias/standup/standup6.jpeg",
+            "img/experiencias/standup/standup7.jpeg",
+            "img/experiencias/standup/standup8.jpeg",
+            "img/experiencias/standup/standup9.jpeg"
         ],
         detalles: {
             duracion: {
@@ -1460,11 +1460,11 @@ const EXPERIENCES = [
             it: "Un volo panoramico esclusivo sopra i paesaggi più iconici di Rio de Janeiro. Per 15-25 minuti potrai ammirare viste privilegiate di spiagge, montagne e monumenti simbolici, in un’esperienza ideale per chi cerca lusso, emozione e ricordi indimenticabili."
         },
         imagenes: [
-            "./assets/img/experienciaspremium/tourhelicoptero/heli1.png",
-            "./assets/img/experienciaspremium/tourhelicoptero/heli2.png",
-            "./assets/img/experienciaspremium/tourhelicoptero/heli3.png",
-            "./assets/img/experienciaspremium/tourhelicoptero/heli4.png",
-            "./assets/img/experienciaspremium/tourhelicoptero/heli5.png"
+            "img/experienciaspremium/tourhelicoptero/heli1.png",
+            "img/experienciaspremium/tourhelicoptero/heli2.png",
+            "img/experienciaspremium/tourhelicoptero/heli3.png",
+            "img/experienciaspremium/tourhelicoptero/heli4.png",
+            "img/experienciaspremium/tourhelicoptero/heli5.png"
         ],
         detalles: {
             duracion: {
@@ -1515,10 +1515,10 @@ const EXPERIENCES = [
             it: "Un’esperienza aerea estrema e sofisticata. Sorvola senza porte per 30 minuti più di 20 punti iconici di Rio de Janeiro, con viste completamente aperte e una sensazione di libertà assoluta."
         },
         imagenes: [
-            "./assets/img/experienciaspremium/helisin/helisin2.png",
-            "./assets/img/experienciaspremium/helisin/helisin1.png",
-            "./assets/img/experienciaspremium/helisin/helisin3.png",
-            "./assets/img/experienciaspremium/helisin/helisin4.png"
+            "img/experienciaspremium/helisin/helisin2.png",
+            "img/experienciaspremium/helisin/helisin1.png",
+            "img/experienciaspremium/helisin/helisin3.png",
+            "img/experienciaspremium/helisin/helisin4.png"
         ],
         detalles: {
             duracion: {
@@ -1569,10 +1569,10 @@ const EXPERIENCES = [
             it: "Vivi l’emozione di volare in deltaplano da Pedra Bonita accompagnato da un istruttore certificato. Goditi viste incredibili su montagne, foresta e mare in un’esperienza sicura, intensa e indimenticabile."
         },
         imagenes: [
-            "./assets/img/experienciaspremium/aladelta/ala1.png",
-            "./assets/img/experienciaspremium/aladelta/ala4.png",
-            "./assets/img/experienciaspremium/aladelta/ala5.png",
-            "./assets/img/experienciaspremium/aladelta/ala6.png"
+            "img/experienciaspremium/aladelta/ala1.png",
+            "img/experienciaspremium/aladelta/ala4.png",
+            "img/experienciaspremium/aladelta/ala5.png",
+            "img/experienciaspremium/aladelta/ala6.png"
         ],
         detalles: {
             duracion: {
@@ -1623,8 +1623,8 @@ const EXPERIENCES = [
             it: "Goditi la sensazione di volare in parapendio sopra i paesaggi naturali di Niterói. Un’esperienza che combina adrenalina, tranquillità e viste incredibili sull’oceano, ideale per chi cerca qualcosa di diverso."
         },
         imagenes: [
-            "./assets/img/experienciaspremium/parapente/para1.png",
-            "./assets/img/experienciaspremium/parapente/para2.png"
+            "img/experienciaspremium/parapente/para1.png",
+            "img/experienciaspremium/parapente/para2.png"
         ],
         detalles: {
             duracion: {
@@ -1675,7 +1675,7 @@ const EXPERIENCES = [
             it: "Esplora Búzios con un divertente tour in buggy visitando spiagge paradisiache, punti panoramici naturali e luoghi perfetti per le foto. Un modo rilassante ed emozionante per conoscere una delle destinazioni più affascinanti del Brasile."
         },
         imagenes: [
-            "./assets/img/experienciaspremium/buggy/buggy1.png"
+            "img/experienciaspremium/buggy/buggy1.png"
         ],
         detalles: {
             duracion: {
