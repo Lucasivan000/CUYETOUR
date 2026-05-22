@@ -955,6 +955,7 @@
     </script>
     <script>
         const LANG = "pt";
+        const BASE_PATH = LANG === "es" ? "" : `/${LANG}`;
     </script>
     <script src="../data/experiencies.js"></script>
 
@@ -1082,7 +1083,7 @@
 
                 experience.imagenes.forEach(src => {
                     const img = document.createElement("img");
-                    img.src = src;
+                    img.src = `${BASE_PATH}/${src.replace("./", "")}`;
                     img.alt = t(experience.titulo) || "experience";
                     track.appendChild(img);
                 });
